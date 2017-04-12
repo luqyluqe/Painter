@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5813EC3C14450B3BAE9B89EB /* Pods_Painter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C630BE9D13BAC1F7A213BC /* Pods_Painter_Tests.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* PTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* PTAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* PTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* PTViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B18BC0A9CD49398D329CBDD6 /* Pods_Painter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDDFF2101CCC2A79D513889 /* Pods_Painter_Example.framework */; };
+		C59876091E9F2434009304D4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C59875B41E9F2434009304D4 /* .gitkeep */; };
+		C598760A1E9F2434009304D4 /* background_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875B51E9F2434009304D4 /* background_texture.png */; };
+		C598760B1E9F2434009304D4 /* large_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875B61E9F2434009304D4 /* large_dot.png */; };
+		C598760C1E9F2434009304D4 /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875B71E9F2434009304D4 /* open.png */; };
+		C598760D1E9F2434009304D4 /* palette.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875B81E9F2434009304D4 /* palette.png */; };
+		C598760E1E9F2434009304D4 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875B91E9F2434009304D4 /* placeholder.png */; };
+		C598760F1E9F2434009304D4 /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875BA1E9F2434009304D4 /* redo.png */; };
+		C59876101E9F2434009304D4 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875BB1E9F2434009304D4 /* save.png */; };
+		C59876111E9F2434009304D4 /* small_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875BC1E9F2434009304D4 /* small_dot.png */; };
+		C59876121E9F2434009304D4 /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875BD1E9F2434009304D4 /* undo.png */; };
+		C59876131E9F2434009304D4 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875C11E9F2434009304D4 /* NSMutableArray+Stack.m */; };
+		C59876141E9F2434009304D4 /* PTCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875C31E9F2434009304D4 /* PTCanvasView.m */; };
+		C59876151E9F2434009304D4 /* PTCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875C51E9F2434009304D4 /* PTCanvasViewController.m */; };
+		C59876161E9F2434009304D4 /* PTCanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59875C61E9F2434009304D4 /* PTCanvasViewController.xib */; };
+		C59876171E9F2434009304D4 /* PTCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875C81E9F2434009304D4 /* PTCanvasViewGenerator.m */; };
+		C59876181E9F2434009304D4 /* PTCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875CA1E9F2434009304D4 /* PTCommand.m */; };
+		C59876191E9F2434009304D4 /* PTCommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875CC1E9F2434009304D4 /* PTCommandBarButton.m */; };
+		C598761A1E9F2434009304D4 /* PTCommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875CE1E9F2434009304D4 /* PTCommandSlider.m */; };
+		C598761C1E9F2434009304D4 /* PTDeleteScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875D21E9F2434009304D4 /* PTDeleteScribbleCommand.m */; };
+		C598761D1E9F2434009304D4 /* PTDot.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875D41E9F2434009304D4 /* PTDot.m */; };
+		C598761E1E9F2434009304D4 /* PTMarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875D71E9F2434009304D4 /* PTMarkEnumerator.m */; };
+		C598761F1E9F2434009304D4 /* PTMarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875DA1E9F2434009304D4 /* PTMarkRenderer.m */; };
+		C59876201E9F2434009304D4 /* PTOpenScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875DD1E9F2434009304D4 /* PTOpenScribbleCommand.m */; };
+		C59876211E9F2434009304D4 /* PTPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875DF1E9F2434009304D4 /* PTPaletteViewController.m */; };
+		C59876221E9F2434009304D4 /* PTPaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59875E01E9F2434009304D4 /* PTPaletteViewController.xib */; };
+		C59876231E9F2434009304D4 /* PTSaveScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875E21E9F2434009304D4 /* PTSaveScribbleCommand.m */; };
+		C59876241E9F2434009304D4 /* PTScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875E41E9F2434009304D4 /* PTScribble.m */; };
+		C59876251E9F2434009304D4 /* PTScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875E61E9F2434009304D4 /* PTScribbleManager.m */; };
+		C59876261E9F2434009304D4 /* PTScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875E81E9F2434009304D4 /* PTScribbleMemento.m */; };
+		C59876271E9F2434009304D4 /* PTScribbleThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875EC1E9F2434009304D4 /* PTScribbleThumbnailCell.m */; };
+		C59876281E9F2434009304D4 /* PTScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875EE1E9F2434009304D4 /* PTScribbleThumbnailView.m */; };
+		C59876291E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875F01E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.m */; };
+		C598762A1E9F2434009304D4 /* PTSetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875F21E9F2434009304D4 /* PTSetStrokeColorCommand.m */; };
+		C598762B1E9F2434009304D4 /* PTSetStrokeSizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875F41E9F2434009304D4 /* PTSetStrokeSizeCommand.m */; };
+		C598762C1E9F2434009304D4 /* PTStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875F61E9F2434009304D4 /* PTStroke.m */; };
+		C598762D1E9F2434009304D4 /* PTThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875F81E9F2434009304D4 /* PTThumbnailViewController.m */; };
+		C598762E1E9F2434009304D4 /* PTThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59875F91E9F2434009304D4 /* PTThumbnailViewController.xib */; };
+		C598762F1E9F2434009304D4 /* PTVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875FB1E9F2434009304D4 /* PTVertex.m */; };
+		C59876301E9F2434009304D4 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875FD1E9F2434009304D4 /* UIView+UIImage.m */; };
+		C59876311E9F2434009304D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C59876001E9F2434009304D4 /* Info.plist */; };
+		C59876321E9F2434009304D4 /* Painter.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C59876021E9F2434009304D4 /* Painter.xcconfig */; };
+		C59876331E9F2434009304D4 /* Painter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59876031E9F2434009304D4 /* Painter-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = Painter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		244859793219466D40D60A0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2D3F245458CAEB4C64DDE14E /* Pods-Painter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Painter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Painter_Tests/Pods-Painter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4DDDFF2101CCC2A79D513889 /* Pods_Painter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Painter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* Painter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Painter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* Painter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Painter-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* Painter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Painter-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* PTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* PTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* PTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PTViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* PTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* Painter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Painter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6EC477940C91946879957803 /* Pods-Painter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Painter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Painter_Example/Pods-Painter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A7F0CE3486BB3DAC7A40BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88C630BE9D13BAC1F7A213BC /* Pods_Painter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Painter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1A750BE876BA933DFD8C9A /* Painter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Painter.podspec; path = ../Painter.podspec; sourceTree = "<group>"; };
+		99C83B928D89B35C70BA066F /* Pods-Painter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Painter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Painter_Tests/Pods-Painter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C59875B41E9F2434009304D4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		C59875B51E9F2434009304D4 /* background_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_texture.png; sourceTree = "<group>"; };
+		C59875B61E9F2434009304D4 /* large_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_dot.png; sourceTree = "<group>"; };
+		C59875B71E9F2434009304D4 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
+		C59875B81E9F2434009304D4 /* palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palette.png; sourceTree = "<group>"; };
+		C59875B91E9F2434009304D4 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		C59875BA1E9F2434009304D4 /* redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redo.png; sourceTree = "<group>"; };
+		C59875BB1E9F2434009304D4 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		C59875BC1E9F2434009304D4 /* small_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_dot.png; sourceTree = "<group>"; };
+		C59875BD1E9F2434009304D4 /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
+		C59875C01E9F2434009304D4 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		C59875C11E9F2434009304D4 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		C59875C21E9F2434009304D4 /* PTCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasView.h; sourceTree = "<group>"; };
+		C59875C31E9F2434009304D4 /* PTCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasView.m; sourceTree = "<group>"; };
+		C59875C41E9F2434009304D4 /* PTCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewController.h; sourceTree = "<group>"; };
+		C59875C51E9F2434009304D4 /* PTCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewController.m; sourceTree = "<group>"; };
+		C59875C61E9F2434009304D4 /* PTCanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTCanvasViewController.xib; sourceTree = "<group>"; };
+		C59875C71E9F2434009304D4 /* PTCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewGenerator.h; sourceTree = "<group>"; };
+		C59875C81E9F2434009304D4 /* PTCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewGenerator.m; sourceTree = "<group>"; };
+		C59875C91E9F2434009304D4 /* PTCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommand.h; sourceTree = "<group>"; };
+		C59875CA1E9F2434009304D4 /* PTCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommand.m; sourceTree = "<group>"; };
+		C59875CB1E9F2434009304D4 /* PTCommandBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommandBarButton.h; sourceTree = "<group>"; };
+		C59875CC1E9F2434009304D4 /* PTCommandBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommandBarButton.m; sourceTree = "<group>"; };
+		C59875CD1E9F2434009304D4 /* PTCommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommandSlider.h; sourceTree = "<group>"; };
+		C59875CE1E9F2434009304D4 /* PTCommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommandSlider.m; sourceTree = "<group>"; };
+		C59875CF1E9F2434009304D4 /* PTCoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCoordinatingController.h; sourceTree = "<group>"; };
+		C59875D01E9F2434009304D4 /* PTCoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCoordinatingController.m; sourceTree = "<group>"; };
+		C59875D11E9F2434009304D4 /* PTDeleteScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDeleteScribbleCommand.h; sourceTree = "<group>"; };
+		C59875D21E9F2434009304D4 /* PTDeleteScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDeleteScribbleCommand.m; sourceTree = "<group>"; };
+		C59875D31E9F2434009304D4 /* PTDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDot.h; sourceTree = "<group>"; };
+		C59875D41E9F2434009304D4 /* PTDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDot.m; sourceTree = "<group>"; };
+		C59875D51E9F2434009304D4 /* PTMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMark.h; sourceTree = "<group>"; };
+		C59875D61E9F2434009304D4 /* PTMarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkEnumerator.h; sourceTree = "<group>"; };
+		C59875D71E9F2434009304D4 /* PTMarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMarkEnumerator.m; sourceTree = "<group>"; };
+		C59875D81E9F2434009304D4 /* PTMarkEnumerator+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTMarkEnumerator+Internal.h"; sourceTree = "<group>"; };
+		C59875D91E9F2434009304D4 /* PTMarkRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkRenderer.h; sourceTree = "<group>"; };
+		C59875DA1E9F2434009304D4 /* PTMarkRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMarkRenderer.m; sourceTree = "<group>"; };
+		C59875DB1E9F2434009304D4 /* PTMarkVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkVisitor.h; sourceTree = "<group>"; };
+		C59875DC1E9F2434009304D4 /* PTOpenScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTOpenScribbleCommand.h; sourceTree = "<group>"; };
+		C59875DD1E9F2434009304D4 /* PTOpenScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTOpenScribbleCommand.m; sourceTree = "<group>"; };
+		C59875DE1E9F2434009304D4 /* PTPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPaletteViewController.h; sourceTree = "<group>"; };
+		C59875DF1E9F2434009304D4 /* PTPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPaletteViewController.m; sourceTree = "<group>"; };
+		C59875E01E9F2434009304D4 /* PTPaletteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTPaletteViewController.xib; sourceTree = "<group>"; };
+		C59875E11E9F2434009304D4 /* PTSaveScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSaveScribbleCommand.h; sourceTree = "<group>"; };
+		C59875E21E9F2434009304D4 /* PTSaveScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSaveScribbleCommand.m; sourceTree = "<group>"; };
+		C59875E31E9F2434009304D4 /* PTScribble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribble.h; sourceTree = "<group>"; };
+		C59875E41E9F2434009304D4 /* PTScribble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribble.m; sourceTree = "<group>"; };
+		C59875E51E9F2434009304D4 /* PTScribbleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleManager.h; sourceTree = "<group>"; };
+		C59875E61E9F2434009304D4 /* PTScribbleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleManager.m; sourceTree = "<group>"; };
+		C59875E71E9F2434009304D4 /* PTScribbleMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleMemento.h; sourceTree = "<group>"; };
+		C59875E81E9F2434009304D4 /* PTScribbleMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleMemento.m; sourceTree = "<group>"; };
+		C59875E91E9F2434009304D4 /* PTScribbleMemento+Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTScribbleMemento+Friend.h"; sourceTree = "<group>"; };
+		C59875EA1E9F2434009304D4 /* PTScribbleSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleSource.h; sourceTree = "<group>"; };
+		C59875EB1E9F2434009304D4 /* PTScribbleThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailCell.h; sourceTree = "<group>"; };
+		C59875EC1E9F2434009304D4 /* PTScribbleThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailCell.m; sourceTree = "<group>"; };
+		C59875ED1E9F2434009304D4 /* PTScribbleThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailView.h; sourceTree = "<group>"; };
+		C59875EE1E9F2434009304D4 /* PTScribbleThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailView.m; sourceTree = "<group>"; };
+		C59875EF1E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailViewImageProxy.h; sourceTree = "<group>"; };
+		C59875F01E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailViewImageProxy.m; sourceTree = "<group>"; };
+		C59875F11E9F2434009304D4 /* PTSetStrokeColorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSetStrokeColorCommand.h; sourceTree = "<group>"; };
+		C59875F21E9F2434009304D4 /* PTSetStrokeColorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSetStrokeColorCommand.m; sourceTree = "<group>"; };
+		C59875F31E9F2434009304D4 /* PTSetStrokeSizeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSetStrokeSizeCommand.h; sourceTree = "<group>"; };
+		C59875F41E9F2434009304D4 /* PTSetStrokeSizeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSetStrokeSizeCommand.m; sourceTree = "<group>"; };
+		C59875F51E9F2434009304D4 /* PTStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTStroke.h; sourceTree = "<group>"; };
+		C59875F61E9F2434009304D4 /* PTStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTStroke.m; sourceTree = "<group>"; };
+		C59875F71E9F2434009304D4 /* PTThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTThumbnailViewController.h; sourceTree = "<group>"; };
+		C59875F81E9F2434009304D4 /* PTThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTThumbnailViewController.m; sourceTree = "<group>"; };
+		C59875F91E9F2434009304D4 /* PTThumbnailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTThumbnailViewController.xib; sourceTree = "<group>"; };
+		C59875FA1E9F2434009304D4 /* PTVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTVertex.h; sourceTree = "<group>"; };
+		C59875FB1E9F2434009304D4 /* PTVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTVertex.m; sourceTree = "<group>"; };
+		C59875FC1E9F2434009304D4 /* UIView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
+		C59875FD1E9F2434009304D4 /* UIView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
+		C59876001E9F2434009304D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59876011E9F2434009304D4 /* Painter.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Painter.modulemap; sourceTree = "<group>"; };
+		C59876021E9F2434009304D4 /* Painter.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Painter.xcconfig; sourceTree = "<group>"; };
+		C59876031E9F2434009304D4 /* Painter-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Painter-dummy.m"; sourceTree = "<group>"; };
+		C59876041E9F2434009304D4 /* Painter-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Painter-prefix.pch"; sourceTree = "<group>"; };
+		C59876051E9F2434009304D4 /* Painter-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Painter-umbrella.h"; sourceTree = "<group>"; };
+		DDCFE9786825016A5FB7DB0E /* Pods-Painter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Painter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Painter_Example/Pods-Painter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				B18BC0A9CD49398D329CBDD6 /* Pods_Painter_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				5813EC3C14450B3BAE9B89EB /* Pods_Painter_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for Painter */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				F79FD8F7C4F465D31225D8D0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* Painter_Example.app */,
+				6003F5AE195388D20070C39A /* Painter_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				4DDDFF2101CCC2A79D513889 /* Pods_Painter_Example.framework */,
+				88C630BE9D13BAC1F7A213BC /* Pods_Painter_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for Painter */ = {
+			isa = PBXGroup;
+			children = (
+				C59876081E9F2434009304D4 /* Development Pods */,
+				6003F59C195388D20070C39A /* PTAppDelegate.h */,
+				6003F59D195388D20070C39A /* PTAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* PTViewController.h */,
+				6003F5A6195388D20070C39A /* PTViewController.m */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for Painter";
+			path = Painter;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* Painter-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* Painter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				8C1A750BE876BA933DFD8C9A /* Painter.podspec */,
+				244859793219466D40D60A0E /* README.md */,
+				83A7F0CE3486BB3DAC7A40BB /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		C59875BE1E9F2434009304D4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C59875B51E9F2434009304D4 /* background_texture.png */,
+				C59875B61E9F2434009304D4 /* large_dot.png */,
+				C59875B71E9F2434009304D4 /* open.png */,
+				C59875B81E9F2434009304D4 /* palette.png */,
+				C59875B91E9F2434009304D4 /* placeholder.png */,
+				C59875BA1E9F2434009304D4 /* redo.png */,
+				C59875BB1E9F2434009304D4 /* save.png */,
+				C59875BC1E9F2434009304D4 /* small_dot.png */,
+				C59875BD1E9F2434009304D4 /* undo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C59875BF1E9F2434009304D4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C59875B41E9F2434009304D4 /* .gitkeep */,
+				C59875BE1E9F2434009304D4 /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C59875FE1E9F2434009304D4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C59875C01E9F2434009304D4 /* NSMutableArray+Stack.h */,
+				C59875C11E9F2434009304D4 /* NSMutableArray+Stack.m */,
+				C59875C21E9F2434009304D4 /* PTCanvasView.h */,
+				C59875C31E9F2434009304D4 /* PTCanvasView.m */,
+				C59875C41E9F2434009304D4 /* PTCanvasViewController.h */,
+				C59875C51E9F2434009304D4 /* PTCanvasViewController.m */,
+				C59875C61E9F2434009304D4 /* PTCanvasViewController.xib */,
+				C59875C71E9F2434009304D4 /* PTCanvasViewGenerator.h */,
+				C59875C81E9F2434009304D4 /* PTCanvasViewGenerator.m */,
+				C59875C91E9F2434009304D4 /* PTCommand.h */,
+				C59875CA1E9F2434009304D4 /* PTCommand.m */,
+				C59875CB1E9F2434009304D4 /* PTCommandBarButton.h */,
+				C59875CC1E9F2434009304D4 /* PTCommandBarButton.m */,
+				C59875CD1E9F2434009304D4 /* PTCommandSlider.h */,
+				C59875CE1E9F2434009304D4 /* PTCommandSlider.m */,
+				C59875CF1E9F2434009304D4 /* PTCoordinatingController.h */,
+				C59875D01E9F2434009304D4 /* PTCoordinatingController.m */,
+				C59875D11E9F2434009304D4 /* PTDeleteScribbleCommand.h */,
+				C59875D21E9F2434009304D4 /* PTDeleteScribbleCommand.m */,
+				C59875D31E9F2434009304D4 /* PTDot.h */,
+				C59875D41E9F2434009304D4 /* PTDot.m */,
+				C59875D51E9F2434009304D4 /* PTMark.h */,
+				C59875D61E9F2434009304D4 /* PTMarkEnumerator.h */,
+				C59875D71E9F2434009304D4 /* PTMarkEnumerator.m */,
+				C59875D81E9F2434009304D4 /* PTMarkEnumerator+Internal.h */,
+				C59875D91E9F2434009304D4 /* PTMarkRenderer.h */,
+				C59875DA1E9F2434009304D4 /* PTMarkRenderer.m */,
+				C59875DB1E9F2434009304D4 /* PTMarkVisitor.h */,
+				C59875DC1E9F2434009304D4 /* PTOpenScribbleCommand.h */,
+				C59875DD1E9F2434009304D4 /* PTOpenScribbleCommand.m */,
+				C59875DE1E9F2434009304D4 /* PTPaletteViewController.h */,
+				C59875DF1E9F2434009304D4 /* PTPaletteViewController.m */,
+				C59875E01E9F2434009304D4 /* PTPaletteViewController.xib */,
+				C59875E11E9F2434009304D4 /* PTSaveScribbleCommand.h */,
+				C59875E21E9F2434009304D4 /* PTSaveScribbleCommand.m */,
+				C59875E31E9F2434009304D4 /* PTScribble.h */,
+				C59875E41E9F2434009304D4 /* PTScribble.m */,
+				C59875E51E9F2434009304D4 /* PTScribbleManager.h */,
+				C59875E61E9F2434009304D4 /* PTScribbleManager.m */,
+				C59875E71E9F2434009304D4 /* PTScribbleMemento.h */,
+				C59875E81E9F2434009304D4 /* PTScribbleMemento.m */,
+				C59875E91E9F2434009304D4 /* PTScribbleMemento+Friend.h */,
+				C59875EA1E9F2434009304D4 /* PTScribbleSource.h */,
+				C59875EB1E9F2434009304D4 /* PTScribbleThumbnailCell.h */,
+				C59875EC1E9F2434009304D4 /* PTScribbleThumbnailCell.m */,
+				C59875ED1E9F2434009304D4 /* PTScribbleThumbnailView.h */,
+				C59875EE1E9F2434009304D4 /* PTScribbleThumbnailView.m */,
+				C59875EF1E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.h */,
+				C59875F01E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.m */,
+				C59875F11E9F2434009304D4 /* PTSetStrokeColorCommand.h */,
+				C59875F21E9F2434009304D4 /* PTSetStrokeColorCommand.m */,
+				C59875F31E9F2434009304D4 /* PTSetStrokeSizeCommand.h */,
+				C59875F41E9F2434009304D4 /* PTSetStrokeSizeCommand.m */,
+				C59875F51E9F2434009304D4 /* PTStroke.h */,
+				C59875F61E9F2434009304D4 /* PTStroke.m */,
+				C59875F71E9F2434009304D4 /* PTThumbnailViewController.h */,
+				C59875F81E9F2434009304D4 /* PTThumbnailViewController.m */,
+				C59875F91E9F2434009304D4 /* PTThumbnailViewController.xib */,
+				C59875FA1E9F2434009304D4 /* PTVertex.h */,
+				C59875FB1E9F2434009304D4 /* PTVertex.m */,
+				C59875FC1E9F2434009304D4 /* UIView+UIImage.h */,
+				C59875FD1E9F2434009304D4 /* UIView+UIImage.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C59875FF1E9F2434009304D4 /* Painter */ = {
+			isa = PBXGroup;
+			children = (
+				C59875BF1E9F2434009304D4 /* Assets */,
+				C59875FE1E9F2434009304D4 /* Classes */,
+			);
+			path = Painter;
+			sourceTree = "<group>";
+		};
+		C59876061E9F2434009304D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C59876001E9F2434009304D4 /* Info.plist */,
+				C59876011E9F2434009304D4 /* Painter.modulemap */,
+				C59876021E9F2434009304D4 /* Painter.xcconfig */,
+				C59876031E9F2434009304D4 /* Painter-dummy.m */,
+				C59876041E9F2434009304D4 /* Painter-prefix.pch */,
+				C59876051E9F2434009304D4 /* Painter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Painter";
+			sourceTree = "<group>";
+		};
+		C59876071E9F2434009304D4 /* Painter */ = {
+			isa = PBXGroup;
+			children = (
+				C59875FF1E9F2434009304D4 /* Painter */,
+				C59876061E9F2434009304D4 /* Support Files */,
+			);
+			name = Painter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C59876081E9F2434009304D4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C59876071E9F2434009304D4 /* Painter */,
+			);
+			name = "Development Pods";
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		F79FD8F7C4F465D31225D8D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDCFE9786825016A5FB7DB0E /* Pods-Painter_Example.debug.xcconfig */,
+				6EC477940C91946879957803 /* Pods-Painter_Example.release.xcconfig */,
+				99C83B928D89B35C70BA066F /* Pods-Painter_Tests.debug.xcconfig */,
+				2D3F245458CAEB4C64DDE14E /* Pods-Painter_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* Painter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "Painter_Example" */;
+			buildPhases = (
+				C2B7E139C60690468CEF24A5 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				7B9C8BFC9A2F1DB5846F85B6 /* [CP] Embed Pods Frameworks */,
+				77B600D25AD6DDD773EFF5F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Painter_Example;
+			productName = Painter;
+			productReference = 6003F58A195388D20070C39A /* Painter_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* Painter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Painter_Tests" */;
+			buildPhases = (
+				E6C576286CAEFE18062E1FCD /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+				F1C1940AE7B3E8D8C1EC693B /* [CP] Embed Pods Frameworks */,
+				C5FF7F5644EF577E766E0B1D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = Painter_Tests;
+			productName = PainterTests;
+			productReference = 6003F5AE195388D20070C39A /* Painter_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PT;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = luqyluqe;
+				TargetAttributes = {
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "Painter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* Painter_Example */,
+				6003F5AD195388D20070C39A /* Painter_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				C598760F1E9F2434009304D4 /* redo.png in Resources */,
+				C59876311E9F2434009304D4 /* Info.plist in Resources */,
+				C59876111E9F2434009304D4 /* small_dot.png in Resources */,
+				C598762E1E9F2434009304D4 /* PTThumbnailViewController.xib in Resources */,
+				C59876101E9F2434009304D4 /* save.png in Resources */,
+				C598760D1E9F2434009304D4 /* palette.png in Resources */,
+				C598760B1E9F2434009304D4 /* large_dot.png in Resources */,
+				C598760E1E9F2434009304D4 /* placeholder.png in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				C59876091E9F2434009304D4 /* .gitkeep in Resources */,
+				C59876321E9F2434009304D4 /* Painter.xcconfig in Resources */,
+				C59876161E9F2434009304D4 /* PTCanvasViewController.xib in Resources */,
+				C598760A1E9F2434009304D4 /* background_texture.png in Resources */,
+				C598760C1E9F2434009304D4 /* open.png in Resources */,
+				C59876121E9F2434009304D4 /* undo.png in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				C59876221E9F2434009304D4 /* PTPaletteViewController.xib in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77B600D25AD6DDD773EFF5F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Painter_Example/Pods-Painter_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B9C8BFC9A2F1DB5846F85B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Painter_Example/Pods-Painter_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B7E139C60690468CEF24A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5FF7F5644EF577E766E0B1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Painter_Tests/Pods-Painter_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C576286CAEFE18062E1FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C1940AE7B3E8D8C1EC693B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Painter_Tests/Pods-Painter_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C598761F1E9F2434009304D4 /* PTMarkRenderer.m in Sources */,
+				C59876131E9F2434009304D4 /* NSMutableArray+Stack.m in Sources */,
+				C59876181E9F2434009304D4 /* PTCommand.m in Sources */,
+				C59876261E9F2434009304D4 /* PTScribbleMemento.m in Sources */,
+				C59876281E9F2434009304D4 /* PTScribbleThumbnailView.m in Sources */,
+				6003F59E195388D20070C39A /* PTAppDelegate.m in Sources */,
+				C598762B1E9F2434009304D4 /* PTSetStrokeSizeCommand.m in Sources */,
+				C598761E1E9F2434009304D4 /* PTMarkEnumerator.m in Sources */,
+				C59876151E9F2434009304D4 /* PTCanvasViewController.m in Sources */,
+				C59876271E9F2434009304D4 /* PTScribbleThumbnailCell.m in Sources */,
+				C59876241E9F2434009304D4 /* PTScribble.m in Sources */,
+				C598762C1E9F2434009304D4 /* PTStroke.m in Sources */,
+				C598762D1E9F2434009304D4 /* PTThumbnailViewController.m in Sources */,
+				C59876171E9F2434009304D4 /* PTCanvasViewGenerator.m in Sources */,
+				6003F5A7195388D20070C39A /* PTViewController.m in Sources */,
+				C598761D1E9F2434009304D4 /* PTDot.m in Sources */,
+				C59876251E9F2434009304D4 /* PTScribbleManager.m in Sources */,
+				C598762F1E9F2434009304D4 /* PTVertex.m in Sources */,
+				C59876231E9F2434009304D4 /* PTSaveScribbleCommand.m in Sources */,
+				C59876191E9F2434009304D4 /* PTCommandBarButton.m in Sources */,
+				C598761C1E9F2434009304D4 /* PTDeleteScribbleCommand.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+				C59876201E9F2434009304D4 /* PTOpenScribbleCommand.m in Sources */,
+				C59876301E9F2434009304D4 /* UIView+UIImage.m in Sources */,
+				C59876291E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.m in Sources */,
+				C598761A1E9F2434009304D4 /* PTCommandSlider.m in Sources */,
+				C59876331E9F2434009304D4 /* Painter-dummy.m in Sources */,
+				C59876141E9F2434009304D4 /* PTCanvasView.m in Sources */,
+				C59876211E9F2434009304D4 /* PTPaletteViewController.m in Sources */,
+				C598762A1E9F2434009304D4 /* PTSetStrokeColorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* Painter_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDCFE9786825016A5FB7DB0E /* Pods-Painter_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Painter/Painter-Prefix.pch";
+				INFOPLIST_FILE = "Painter/Painter-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC477940C91946879957803 /* Pods-Painter_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Painter/Painter-Prefix.pch";
+				INFOPLIST_FILE = "Painter/Painter-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C83B928D89B35C70BA066F /* Pods-Painter_Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Painter_Example.app/Painter_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3F245458CAEB4C64DDE14E /* Pods-Painter_Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Painter_Example.app/Painter_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "Painter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "Painter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Painter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

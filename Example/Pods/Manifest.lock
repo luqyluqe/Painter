@@ -1,0 +1,16 @@
+PODS:
+  - Painter (0.1.0)
+
+DEPENDENCIES:
+  - Painter (from `../`)
+
+EXTERNAL SOURCES:
+  Painter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Painter: 8d86406468106c21d4b6ea74bc8aca516883ccf5
+
+PODFILE CHECKSUM: 7eed740cca20cf2fe9e117f105e72d441bef3c29
+
+COCOAPODS: 1.2.0
