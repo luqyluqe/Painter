@@ -10,45 +10,29 @@
 		059D5BE31DDF072BA905135FF601AD7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		07107E6759E1EB32980F9423AFD78C77 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D8907A9303E518E11A94F448C792E6 /* UIView+UIImage.m */; };
 		0807FCFD54DD4E21FFE02A8C2D331635 /* PTScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EAB7F12100A67FACE126D8DEF92271 /* PTScribbleMemento.m */; };
-		09327CA2CC7EA3CDC5DF16BD818DD74D /* PTSetStrokeColorCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = D747DCDDBE38E42465B7714455E122BD /* PTSetStrokeColorCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A834861DFD7D773F59FB061A96B4BB0 /* PTScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622B64B85EA84F472E73F27FA26D2EAF /* PTScribbleThumbnailView.m */; };
 		0C29748E4B5EB60CE724554344CFCA75 /* PTCommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E54BD7C820AA1A025F47508EB15BA6 /* PTCommandSlider.m */; };
-		0CE70CB86E6FFC5E45913BA101CE1FE6 /* PTSaveScribbleCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F759FECAF7CA2E7A9E7876AF507839 /* PTSaveScribbleCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C51638D53E60A24F8A3A2C9F882CB6A /* PTScribbleSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDFC9FEC182625F376700CAE20375E7 /* PTScribbleSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C7BC58C62DF80E2807356DE79EBDE14 /* PTStroke.h in Headers */ = {isa = PBXBuildFile; fileRef = 7257FAF5DBA6EFB511B83EABD159D09D /* PTStroke.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24C20ECC9D72F7D2571E23432948FDEE /* PTScribbleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B1BC6D6B663ABECA576CAD59A2E48F /* PTScribbleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2581204BE4228A26271C1D2184B5608F /* PTCanvasView.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AA7847DE1BA11190ACA0D5FA2934BD /* PTCanvasView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A4CEF5C0279CAFB9EED39C48CDCA6CA /* Pods-Painter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66078B814CD6E7A5EF324E1E4AAA3C68 /* Pods-Painter_Tests-dummy.m */; };
 		2D3CA8583053DB26E635C72051C29D3B /* PTScribbleThumbnailViewImageProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C334D8CD3BF9DF35DF2C24D7A9EF2C6 /* PTScribbleThumbnailViewImageProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		369E63A4A9BEDADE5AC5AF74CC16B67F /* PTDeleteScribbleCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D74C355142DC9979716D0D34BADEE00 /* PTDeleteScribbleCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A60E4E996D36E06EAEB370E0F9547D9 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4D028B10D693CB1B30EDA2C9A7DAA3 /* NSMutableArray+Stack.m */; };
-		3E828F5B41261807D4C74893B0947583 /* PTOpenScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F1381D7229F4B0B6ADD293070C9FE /* PTOpenScribbleCommand.m */; };
 		411CF823345957880A653613DCB6A7E9 /* Pods-Painter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FBA5C7F352F0092E24175730FFDEAB /* Pods-Painter_Example-dummy.m */; };
 		4DC60E43FE0F0FED07EA08CD26F19D94 /* PTCommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 098E7BE117585D0AA2692CBA2736EFAC /* PTCommandBarButton.m */; };
 		61E1AA6D146EFFBED7F65320D11D0753 /* PTMarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C19A01494FA2EF5AFAE20876875F92 /* PTMarkRenderer.m */; };
 		6A09693E126FD201EE073E93E26B8DAE /* PTVertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 75BB143064FCAB3ABD3316DC77A58081 /* PTVertex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72552564E75B654E08C9AF66605DFE75 /* PTSetStrokeSizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5214CCB88C0B80C1D36A0F93B5290505 /* PTSetStrokeSizeCommand.m */; };
-		7516B91766380B53435FB17FEF59B847 /* PTOpenScribbleCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A6A2ECD12D1A61727168E09B1F2ABC /* PTOpenScribbleCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75BE3CCEDF00BFE24056478E268DA50E /* PTSaveScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = F949E919EE20D826CD04D934B826E5D8 /* PTSaveScribbleCommand.m */; };
 		7994620461C49A9D3CF5DBF29BC9979D /* Pods-Painter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 426C7BF8820AC27D7768FE74C613F36A /* Pods-Painter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ABB6ADE69EB9733201FB178C58C019C /* PTCoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7008DD588CB2D2CCF3D7A129AF73EF5 /* PTCoordinatingController.m */; };
 		803B4517BC7094AD44A6C9D84E2218DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8326632EC389F5F66CAD15AD91C623E9 /* PTPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E636030A8A01188413C0630BA4B9E672 /* PTPaletteViewController.m */; };
-		85C1012A607D6F8A2A305383931A30B6 /* PTSetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A69B9362A9E93A6072AEF2112512426E /* PTSetStrokeColorCommand.m */; };
 		863D4A065FCAFE854DCE0BEF65C61162 /* PTMark.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ACABDE99145FEDC5F46C8162E64E1FE /* PTMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88625BA3E2CFBA891BED0C99DB77C34A /* PTScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CAC17513B052E5A936D07415503607 /* PTScribbleThumbnailViewImageProxy.m */; };
 		8B539465D08F3C03D3C2AAFACDC20DED /* PTScribble.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D7A01D2046C2E11CACF71B9FEEE8FA /* PTScribble.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DCD8C932874EE4912487BB5B8053F93 /* PTPaletteViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A77A4B12A96FD6E6967DC2EA6722F6 /* PTPaletteViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DE02AAF519369F245C9AF5F96FC78AE /* PTMarkEnumerator+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C71F3CE1184DBB7185601FCAF1EE50 /* PTMarkEnumerator+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91A2BBCE2188B8FD35B699AEE7847348 /* PTScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FA5822FF72887CA475ACB6157DBA9A /* PTScribbleManager.m */; };
-		94C14E99A91C65AE55C509F1E4D47938 /* PTCanvasViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7C0AA02A8BA6BC02DB6A96CF0593A149 /* PTCanvasViewController.xib */; };
 		9891CE8B24C5479C6BA0CC6C7200BB78 /* PTScribbleMemento+Friend.h in Headers */ = {isa = PBXBuildFile; fileRef = 664E81757E1712AE4A21DC8B4DB6871A /* PTScribbleMemento+Friend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9957463AD8DB8DDCF3C915A1AC7F9A3D /* PTThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A659FC2F68A46CD9BB39638B451C2 /* PTThumbnailViewController.m */; };
 		A13034DFDDC5A0432E7034E396014502 /* PTMarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 660B245E3756BA2E684613FB8BDC926C /* PTMarkEnumerator.m */; };
 		A25275F302616450DC1C75919539D654 /* PTCanvasViewGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1B7860AB49EC868C0F04DEE14274C8 /* PTCanvasViewGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A26D8C7A1E34D80DB0BF382FEAE94151 /* PTMarkRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 640E44EA0DA2D1357148E798C4A806CE /* PTMarkRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2EDBFB214E33090195AD8055DBE555A /* PTScribbleThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6B5713B284F454C77D1C7249D5F5F2 /* PTScribbleThumbnailCell.m */; };
-		A447F8DB8EE2583AB7212AE331C48673 /* PTSetStrokeSizeCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA2ED53105AA7ADB2D777AD031C838E /* PTSetStrokeSizeCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5F83016567EB0921EB516C0C4FE6C49 /* Painter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1111F1A51BBCDB446DE0EB7BAFBA7DA7 /* Painter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A71237B80203E724543D4C637E84F3D1 /* PTMarkVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E53E37B958A0E276FAE1D651F767F9 /* PTMarkVisitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8693EC8A1631182E765A1EA0F68DDBA /* PTStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FB9D42888DD0139AA2D4E69F46C8EB /* PTStroke.m */; };
@@ -60,10 +44,7 @@
 		B5A01432AB9655C04B886C02D59BADCF /* PTCommandSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 759B4C5F0582AE56EE64F4165EB1084F /* PTCommandSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B63589CF8EEC1BC42EC11839A221F3FE /* PTScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFE8046174BAE0FD13246FCE7CD8F4B /* PTScribble.m */; };
 		B9CEAC95BD1E254047DC4CC47147D9D3 /* PTScribbleThumbnailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BE52C8E85414C03F4B3810CB61941C3D /* PTScribbleThumbnailCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE2FFE4FBBE555111AEC7173EB4A7E48 /* PTCanvasViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F815C60A5F7D12FFC0A696A9DA72BB47 /* PTCanvasViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB09F85366AC8DEEDBFEE7CEB5E0560B /* PTCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43982E99DDED7D6C5A73D592ACB61323 /* PTCanvasViewController.m */; };
 		CB6F146D90B8C93674877E1CCC1677AB /* PTVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2B78DC7C1DB0EA49547CAFF42B3D8 /* PTVertex.m */; };
-		CD6E98A317F2241FE9BE464076B643D3 /* PTPaletteViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = AD9FD6DB1670882C51891FC05948FCA9 /* PTPaletteViewController.xib */; };
 		CDC5049380C46DA2466CD1F54DE503EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D815B8E552B4A77C1D4372FFB9F09336 /* Pods-Painter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5AF56AF3A6794E4610BDF3193483E5B /* Pods-Painter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA4FC23EE42691B770A61ED4995DC150 /* PTCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E40B56520B4024F41EE7170CCFF57117 /* PTCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,13 +52,9 @@
 		E26DC246B426CE6DF71B6273F3BFD481 /* PTCommandBarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8150F72C43C48DE1FB0D4ABC6DA04C81 /* PTCommandBarButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5151A8571A0E9290AC625A9B1D9C3DF /* Painter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88ABE06D802F0C016BF45A3B91FF1BC9 /* Painter-dummy.m */; };
 		F0B3D5E7DDBB32B2C233636C27757CB1 /* PTScribbleThumbnailView.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BCFCEBE8A145DA8379F3967F98F528 /* PTScribbleThumbnailView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F169C277446F0CF9DA9180DB0ACE4F27 /* PTDeleteScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 956769F41CD693CD8484D4F1328B99A0 /* PTDeleteScribbleCommand.m */; };
 		F2889B36BAF0109C4C79CB326185A51F /* PTMarkEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2429248A3AAA87BCE95B840C3349A0A7 /* PTMarkEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F559FD86933FEBAE597324111BA99D57 /* PTCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53359870E8B94C571A0BCB1B833DE0D /* PTCanvasView.m */; };
 		F62A1BD2EA850A1D1F9BD420798CCB3C /* UIView+UIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = EE588440BC9C53D209E07B34D39896F8 /* UIView+UIImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F669D6A55310DC2225D044B22A58037A /* PTThumbnailViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 20C834E76DEB37E25AE33A26BF2ADC5C /* PTThumbnailViewController.xib */; };
-		FB92045BFFC767ED4B173B741E5ABC81 /* PTCoordinatingController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE5E93A601AABD9577D7566D614BCC4 /* PTCoordinatingController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC8B7E877334E1BFB74CDEB0739F8A59 /* PTThumbnailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F296269BFF350E5C2E813DF83BF3E /* PTThumbnailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,17 +69,12 @@
 
 /* Begin PBXFileReference section */
 		0071CED9489BCE30134A9BF9D1F7C1E5 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
-		08F759FECAF7CA2E7A9E7876AF507839 /* PTSaveScribbleCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTSaveScribbleCommand.h; sourceTree = "<group>"; };
 		098E7BE117585D0AA2692CBA2736EFAC /* PTCommandBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTCommandBarButton.m; sourceTree = "<group>"; };
 		0994B6A3B2B4B681AFFAD4CAA46898A8 /* Pods-Painter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Painter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F880F85BE7D9A9DE61B8C71876A395A /* Pods-Painter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Painter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1111F1A51BBCDB446DE0EB7BAFBA7DA7 /* Painter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Painter-umbrella.h"; sourceTree = "<group>"; };
 		19A625561014AB5DFE1C27E7A386711D /* Painter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Painter.modulemap; sourceTree = "<group>"; };
-		1A9F1381D7229F4B0B6ADD293070C9FE /* PTOpenScribbleCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTOpenScribbleCommand.m; sourceTree = "<group>"; };
 		1C334D8CD3BF9DF35DF2C24D7A9EF2C6 /* PTScribbleThumbnailViewImageProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailViewImageProxy.h; sourceTree = "<group>"; };
-		1D1A659FC2F68A46CD9BB39638B451C2 /* PTThumbnailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTThumbnailViewController.m; sourceTree = "<group>"; };
-		20A6A2ECD12D1A61727168E09B1F2ABC /* PTOpenScribbleCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTOpenScribbleCommand.h; sourceTree = "<group>"; };
-		20C834E76DEB37E25AE33A26BF2ADC5C /* PTThumbnailViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PTThumbnailViewController.xib; sourceTree = "<group>"; };
 		20F5120576969433F32994A25DCCAB61 /* Pods-Painter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Painter_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		23CAC17513B052E5A936D07415503607 /* PTScribbleThumbnailViewImageProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailViewImageProxy.m; sourceTree = "<group>"; };
 		2429248A3AAA87BCE95B840C3349A0A7 /* PTMarkEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTMarkEnumerator.h; sourceTree = "<group>"; };
@@ -110,13 +82,10 @@
 		34B2FC2383BB75376961EC1ABC0CFFE0 /* PTDot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTDot.h; sourceTree = "<group>"; };
 		40B888CBD5BE07534CB3D748230F8A57 /* Pods-Painter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Painter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		426C7BF8820AC27D7768FE74C613F36A /* Pods-Painter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Painter_Example-umbrella.h"; sourceTree = "<group>"; };
-		43982E99DDED7D6C5A73D592ACB61323 /* PTCanvasViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewController.m; sourceTree = "<group>"; };
 		44C71F3CE1184DBB7185601FCAF1EE50 /* PTMarkEnumerator+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PTMarkEnumerator+Internal.h"; sourceTree = "<group>"; };
 		4A043A0057BC33F4F8F2D1B15C82832D /* Pods-Painter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Painter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4AE5E93A601AABD9577D7566D614BCC4 /* PTCoordinatingController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTCoordinatingController.h; sourceTree = "<group>"; };
 		4B0561EF940460319F0835003F4BE64D /* Painter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Painter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D610C06105CDF5DC6C437A741EEE023 /* Painter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Painter.xcconfig; sourceTree = "<group>"; };
-		5214CCB88C0B80C1D36A0F93B5290505 /* PTSetStrokeSizeCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTSetStrokeSizeCommand.m; sourceTree = "<group>"; };
 		5CC2B78DC7C1DB0EA49547CAFF42B3D8 /* PTVertex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTVertex.m; sourceTree = "<group>"; };
 		5F36B546CB4D2985C7844E70D7B4362D /* Pods_Painter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Painter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		622B64B85EA84F472E73F27FA26D2EAF /* PTScribbleThumbnailView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailView.m; sourceTree = "<group>"; };
@@ -124,7 +93,6 @@
 		66078B814CD6E7A5EF324E1E4AAA3C68 /* Pods-Painter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Painter_Tests-dummy.m"; sourceTree = "<group>"; };
 		660B245E3756BA2E684613FB8BDC926C /* PTMarkEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTMarkEnumerator.m; sourceTree = "<group>"; };
 		664E81757E1712AE4A21DC8B4DB6871A /* PTScribbleMemento+Friend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PTScribbleMemento+Friend.h"; sourceTree = "<group>"; };
-		68B1BC6D6B663ABECA576CAD59A2E48F /* PTScribbleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTScribbleManager.h; sourceTree = "<group>"; };
 		6B6B5713B284F454C77D1C7249D5F5F2 /* PTScribbleThumbnailCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailCell.m; sourceTree = "<group>"; };
 		6C05F52308F13E0B845A92E11736CD04 /* Pods-Painter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Painter_Tests-resources.sh"; sourceTree = "<group>"; };
 		71E54BD7C820AA1A025F47508EB15BA6 /* PTCommandSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTCommandSlider.m; sourceTree = "<group>"; };
@@ -136,24 +104,17 @@
 		78AF8B75486ACA7C3B8358ECCD6ADD8B /* Pods-Painter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Painter_Tests.modulemap"; sourceTree = "<group>"; };
 		795CAEEEA4C9C1D5E67745E4DD42EDA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BCC75D49D5C6494306194B27F3196CC /* Pods-Painter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Painter_Example-resources.sh"; sourceTree = "<group>"; };
-		7C0AA02A8BA6BC02DB6A96CF0593A149 /* PTCanvasViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PTCanvasViewController.xib; sourceTree = "<group>"; };
 		80EAB7F12100A67FACE126D8DEF92271 /* PTScribbleMemento.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTScribbleMemento.m; sourceTree = "<group>"; };
 		8150F72C43C48DE1FB0D4ABC6DA04C81 /* PTCommandBarButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTCommandBarButton.h; sourceTree = "<group>"; };
 		84E53E37B958A0E276FAE1D651F767F9 /* PTMarkVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTMarkVisitor.h; sourceTree = "<group>"; };
 		88ABE06D802F0C016BF45A3B91FF1BC9 /* Painter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Painter-dummy.m"; sourceTree = "<group>"; };
 		89750A5AD0005B454DACE70218A66FD1 /* Pods_Painter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Painter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D9F296269BFF350E5C2E813DF83BF3E /* PTThumbnailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTThumbnailViewController.h; sourceTree = "<group>"; };
 		8F1B7860AB49EC868C0F04DEE14274C8 /* PTCanvasViewGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewGenerator.h; sourceTree = "<group>"; };
 		914DF20986497A8D63A7332C826740D5 /* PTScribbleMemento.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTScribbleMemento.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		956769F41CD693CD8484D4F1328B99A0 /* PTDeleteScribbleCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTDeleteScribbleCommand.m; sourceTree = "<group>"; };
 		9ACABDE99145FEDC5F46C8162E64E1FE /* PTMark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTMark.h; sourceTree = "<group>"; };
 		9B979736562ED52739B4CFF81065F531 /* PTCanvasViewGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewGenerator.m; sourceTree = "<group>"; };
-		9D74C355142DC9979716D0D34BADEE00 /* PTDeleteScribbleCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTDeleteScribbleCommand.h; sourceTree = "<group>"; };
 		A1ECE5B12F0456BD0496DD14DBA86436 /* Pods-Painter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Painter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A4FA5822FF72887CA475ACB6157DBA9A /* PTScribbleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTScribbleManager.m; sourceTree = "<group>"; };
-		A69B9362A9E93A6072AEF2112512426E /* PTSetStrokeColorCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTSetStrokeColorCommand.m; sourceTree = "<group>"; };
-		AD9FD6DB1670882C51891FC05948FCA9 /* PTPaletteViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PTPaletteViewController.xib; sourceTree = "<group>"; };
 		B53359870E8B94C571A0BCB1B833DE0D /* PTCanvasView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTCanvasView.m; sourceTree = "<group>"; };
 		B5468D3E4B91DD57EA5E19E264A02D57 /* Pods-Painter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Painter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B8AA7847DE1BA11190ACA0D5FA2934BD /* PTCanvasView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTCanvasView.h; sourceTree = "<group>"; };
@@ -175,7 +136,6 @@
 		CF4D028B10D693CB1B30EDA2C9A7DAA3 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
 		D1AC091F7E56580572CF2AB6D6534008 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D36A0B09B881405F7797981F48CB1BAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D747DCDDBE38E42465B7714455E122BD /* PTSetStrokeColorCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTSetStrokeColorCommand.h; sourceTree = "<group>"; };
 		D8BCFCEBE8A145DA8379F3967F98F528 /* PTScribbleThumbnailView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailView.h; sourceTree = "<group>"; };
 		DD0A1728DD612D619F9194D77C798560 /* Pods-Painter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Painter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DDDFC9FEC182625F376700CAE20375E7 /* PTScribbleSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTScribbleSource.h; sourceTree = "<group>"; };
@@ -183,17 +143,11 @@
 		E27C9B3D6B922351730DF3B120CA4A57 /* Pods-Painter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Painter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E40B56520B4024F41EE7170CCFF57117 /* PTCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTCommand.h; sourceTree = "<group>"; };
 		E5AF56AF3A6794E4610BDF3193483E5B /* Pods-Painter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Painter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E636030A8A01188413C0630BA4B9E672 /* PTPaletteViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTPaletteViewController.m; sourceTree = "<group>"; };
-		E6A77A4B12A96FD6E6967DC2EA6722F6 /* PTPaletteViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTPaletteViewController.h; sourceTree = "<group>"; };
-		E7008DD588CB2D2CCF3D7A129AF73EF5 /* PTCoordinatingController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTCoordinatingController.m; sourceTree = "<group>"; };
 		EE588440BC9C53D209E07B34D39896F8 /* UIView+UIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
 		EFFE8046174BAE0FD13246FCE7CD8F4B /* PTScribble.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTScribble.m; sourceTree = "<group>"; };
 		F08ACB4231799B15EE2B188BD1A48952 /* Pods-Painter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Painter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F815C60A5F7D12FFC0A696A9DA72BB47 /* PTCanvasViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewController.h; sourceTree = "<group>"; };
-		F949E919EE20D826CD04D934B826E5D8 /* PTSaveScribbleCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTSaveScribbleCommand.m; sourceTree = "<group>"; };
 		F9D7A01D2046C2E11CACF71B9FEEE8FA /* PTScribble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTScribble.h; sourceTree = "<group>"; };
 		FD8B9087868DBC73CB61A18D74101226 /* PTDot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PTDot.m; sourceTree = "<group>"; };
-		FFA2ED53105AA7ADB2D777AD031C838E /* PTSetStrokeSizeCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTSetStrokeSizeCommand.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,9 +277,6 @@
 				CF4D028B10D693CB1B30EDA2C9A7DAA3 /* NSMutableArray+Stack.m */,
 				B8AA7847DE1BA11190ACA0D5FA2934BD /* PTCanvasView.h */,
 				B53359870E8B94C571A0BCB1B833DE0D /* PTCanvasView.m */,
-				F815C60A5F7D12FFC0A696A9DA72BB47 /* PTCanvasViewController.h */,
-				43982E99DDED7D6C5A73D592ACB61323 /* PTCanvasViewController.m */,
-				7C0AA02A8BA6BC02DB6A96CF0593A149 /* PTCanvasViewController.xib */,
 				8F1B7860AB49EC868C0F04DEE14274C8 /* PTCanvasViewGenerator.h */,
 				9B979736562ED52739B4CFF81065F531 /* PTCanvasViewGenerator.m */,
 				E40B56520B4024F41EE7170CCFF57117 /* PTCommand.h */,
@@ -334,10 +285,6 @@
 				098E7BE117585D0AA2692CBA2736EFAC /* PTCommandBarButton.m */,
 				759B4C5F0582AE56EE64F4165EB1084F /* PTCommandSlider.h */,
 				71E54BD7C820AA1A025F47508EB15BA6 /* PTCommandSlider.m */,
-				4AE5E93A601AABD9577D7566D614BCC4 /* PTCoordinatingController.h */,
-				E7008DD588CB2D2CCF3D7A129AF73EF5 /* PTCoordinatingController.m */,
-				9D74C355142DC9979716D0D34BADEE00 /* PTDeleteScribbleCommand.h */,
-				956769F41CD693CD8484D4F1328B99A0 /* PTDeleteScribbleCommand.m */,
 				34B2FC2383BB75376961EC1ABC0CFFE0 /* PTDot.h */,
 				FD8B9087868DBC73CB61A18D74101226 /* PTDot.m */,
 				9ACABDE99145FEDC5F46C8162E64E1FE /* PTMark.h */,
@@ -347,17 +294,8 @@
 				640E44EA0DA2D1357148E798C4A806CE /* PTMarkRenderer.h */,
 				76C19A01494FA2EF5AFAE20876875F92 /* PTMarkRenderer.m */,
 				84E53E37B958A0E276FAE1D651F767F9 /* PTMarkVisitor.h */,
-				20A6A2ECD12D1A61727168E09B1F2ABC /* PTOpenScribbleCommand.h */,
-				1A9F1381D7229F4B0B6ADD293070C9FE /* PTOpenScribbleCommand.m */,
-				E6A77A4B12A96FD6E6967DC2EA6722F6 /* PTPaletteViewController.h */,
-				E636030A8A01188413C0630BA4B9E672 /* PTPaletteViewController.m */,
-				AD9FD6DB1670882C51891FC05948FCA9 /* PTPaletteViewController.xib */,
-				08F759FECAF7CA2E7A9E7876AF507839 /* PTSaveScribbleCommand.h */,
-				F949E919EE20D826CD04D934B826E5D8 /* PTSaveScribbleCommand.m */,
 				F9D7A01D2046C2E11CACF71B9FEEE8FA /* PTScribble.h */,
 				EFFE8046174BAE0FD13246FCE7CD8F4B /* PTScribble.m */,
-				68B1BC6D6B663ABECA576CAD59A2E48F /* PTScribbleManager.h */,
-				A4FA5822FF72887CA475ACB6157DBA9A /* PTScribbleManager.m */,
 				914DF20986497A8D63A7332C826740D5 /* PTScribbleMemento.h */,
 				80EAB7F12100A67FACE126D8DEF92271 /* PTScribbleMemento.m */,
 				664E81757E1712AE4A21DC8B4DB6871A /* PTScribbleMemento+Friend.h */,
@@ -368,15 +306,8 @@
 				622B64B85EA84F472E73F27FA26D2EAF /* PTScribbleThumbnailView.m */,
 				1C334D8CD3BF9DF35DF2C24D7A9EF2C6 /* PTScribbleThumbnailViewImageProxy.h */,
 				23CAC17513B052E5A936D07415503607 /* PTScribbleThumbnailViewImageProxy.m */,
-				D747DCDDBE38E42465B7714455E122BD /* PTSetStrokeColorCommand.h */,
-				A69B9362A9E93A6072AEF2112512426E /* PTSetStrokeColorCommand.m */,
-				FFA2ED53105AA7ADB2D777AD031C838E /* PTSetStrokeSizeCommand.h */,
-				5214CCB88C0B80C1D36A0F93B5290505 /* PTSetStrokeSizeCommand.m */,
 				7257FAF5DBA6EFB511B83EABD159D09D /* PTStroke.h */,
 				72FB9D42888DD0139AA2D4E69F46C8EB /* PTStroke.m */,
-				8D9F296269BFF350E5C2E813DF83BF3E /* PTThumbnailViewController.h */,
-				1D1A659FC2F68A46CD9BB39638B451C2 /* PTThumbnailViewController.m */,
-				20C834E76DEB37E25AE33A26BF2ADC5C /* PTThumbnailViewController.xib */,
 				75BB143064FCAB3ABD3316DC77A58081 /* PTVertex.h */,
 				5CC2B78DC7C1DB0EA49547CAFF42B3D8 /* PTVertex.m */,
 				EE588440BC9C53D209E07B34D39896F8 /* UIView+UIImage.h */,
@@ -451,34 +382,24 @@
 				E1E50C613F791B8B18AF01A35E8EF444 /* NSMutableArray+Stack.h in Headers */,
 				A5F83016567EB0921EB516C0C4FE6C49 /* Painter-umbrella.h in Headers */,
 				2581204BE4228A26271C1D2184B5608F /* PTCanvasView.h in Headers */,
-				BE2FFE4FBBE555111AEC7173EB4A7E48 /* PTCanvasViewController.h in Headers */,
 				A25275F302616450DC1C75919539D654 /* PTCanvasViewGenerator.h in Headers */,
 				DA4FC23EE42691B770A61ED4995DC150 /* PTCommand.h in Headers */,
 				E26DC246B426CE6DF71B6273F3BFD481 /* PTCommandBarButton.h in Headers */,
 				B5A01432AB9655C04B886C02D59BADCF /* PTCommandSlider.h in Headers */,
-				FB92045BFFC767ED4B173B741E5ABC81 /* PTCoordinatingController.h in Headers */,
-				369E63A4A9BEDADE5AC5AF74CC16B67F /* PTDeleteScribbleCommand.h in Headers */,
 				AC52B1E77A8BD47A00B5F07E4072EAAF /* PTDot.h in Headers */,
 				863D4A065FCAFE854DCE0BEF65C61162 /* PTMark.h in Headers */,
 				8DE02AAF519369F245C9AF5F96FC78AE /* PTMarkEnumerator+Internal.h in Headers */,
 				F2889B36BAF0109C4C79CB326185A51F /* PTMarkEnumerator.h in Headers */,
 				A26D8C7A1E34D80DB0BF382FEAE94151 /* PTMarkRenderer.h in Headers */,
 				A71237B80203E724543D4C637E84F3D1 /* PTMarkVisitor.h in Headers */,
-				7516B91766380B53435FB17FEF59B847 /* PTOpenScribbleCommand.h in Headers */,
-				8DCD8C932874EE4912487BB5B8053F93 /* PTPaletteViewController.h in Headers */,
-				0CE70CB86E6FFC5E45913BA101CE1FE6 /* PTSaveScribbleCommand.h in Headers */,
 				8B539465D08F3C03D3C2AAFACDC20DED /* PTScribble.h in Headers */,
-				24C20ECC9D72F7D2571E23432948FDEE /* PTScribbleManager.h in Headers */,
 				9891CE8B24C5479C6BA0CC6C7200BB78 /* PTScribbleMemento+Friend.h in Headers */,
 				B3BC29FB9A63DD9107C62673293389FC /* PTScribbleMemento.h in Headers */,
 				1C51638D53E60A24F8A3A2C9F882CB6A /* PTScribbleSource.h in Headers */,
 				B9CEAC95BD1E254047DC4CC47147D9D3 /* PTScribbleThumbnailCell.h in Headers */,
 				F0B3D5E7DDBB32B2C233636C27757CB1 /* PTScribbleThumbnailView.h in Headers */,
 				2D3CA8583053DB26E635C72051C29D3B /* PTScribbleThumbnailViewImageProxy.h in Headers */,
-				09327CA2CC7EA3CDC5DF16BD818DD74D /* PTSetStrokeColorCommand.h in Headers */,
-				A447F8DB8EE2583AB7212AE331C48673 /* PTSetStrokeSizeCommand.h in Headers */,
 				1C7BC58C62DF80E2807356DE79EBDE14 /* PTStroke.h in Headers */,
-				FC8B7E877334E1BFB74CDEB0739F8A59 /* PTThumbnailViewController.h in Headers */,
 				6A09693E126FD201EE073E93E26B8DAE /* PTVertex.h in Headers */,
 				F62A1BD2EA850A1D1F9BD420798CCB3C /* UIView+UIImage.h in Headers */,
 			);
@@ -607,32 +528,19 @@
 				3A60E4E996D36E06EAEB370E0F9547D9 /* NSMutableArray+Stack.m in Sources */,
 				E5151A8571A0E9290AC625A9B1D9C3DF /* Painter-dummy.m in Sources */,
 				F559FD86933FEBAE597324111BA99D57 /* PTCanvasView.m in Sources */,
-				CB09F85366AC8DEEDBFEE7CEB5E0560B /* PTCanvasViewController.m in Sources */,
-				94C14E99A91C65AE55C509F1E4D47938 /* PTCanvasViewController.xib in Sources */,
 				AD0E11ED4CA3FA731B03B337BAB038E4 /* PTCanvasViewGenerator.m in Sources */,
 				AFDEDF3542C8319C3DD0F605B8610DF1 /* PTCommand.m in Sources */,
 				4DC60E43FE0F0FED07EA08CD26F19D94 /* PTCommandBarButton.m in Sources */,
 				0C29748E4B5EB60CE724554344CFCA75 /* PTCommandSlider.m in Sources */,
-				7ABB6ADE69EB9733201FB178C58C019C /* PTCoordinatingController.m in Sources */,
-				F169C277446F0CF9DA9180DB0ACE4F27 /* PTDeleteScribbleCommand.m in Sources */,
 				AD3223B4713343AD7FCEB3C7B3B872F8 /* PTDot.m in Sources */,
 				A13034DFDDC5A0432E7034E396014502 /* PTMarkEnumerator.m in Sources */,
 				61E1AA6D146EFFBED7F65320D11D0753 /* PTMarkRenderer.m in Sources */,
-				3E828F5B41261807D4C74893B0947583 /* PTOpenScribbleCommand.m in Sources */,
-				8326632EC389F5F66CAD15AD91C623E9 /* PTPaletteViewController.m in Sources */,
-				CD6E98A317F2241FE9BE464076B643D3 /* PTPaletteViewController.xib in Sources */,
-				75BE3CCEDF00BFE24056478E268DA50E /* PTSaveScribbleCommand.m in Sources */,
 				B63589CF8EEC1BC42EC11839A221F3FE /* PTScribble.m in Sources */,
-				91A2BBCE2188B8FD35B699AEE7847348 /* PTScribbleManager.m in Sources */,
 				0807FCFD54DD4E21FFE02A8C2D331635 /* PTScribbleMemento.m in Sources */,
 				A2EDBFB214E33090195AD8055DBE555A /* PTScribbleThumbnailCell.m in Sources */,
 				0A834861DFD7D773F59FB061A96B4BB0 /* PTScribbleThumbnailView.m in Sources */,
 				88625BA3E2CFBA891BED0C99DB77C34A /* PTScribbleThumbnailViewImageProxy.m in Sources */,
-				85C1012A607D6F8A2A305383931A30B6 /* PTSetStrokeColorCommand.m in Sources */,
-				72552564E75B654E08C9AF66605DFE75 /* PTSetStrokeSizeCommand.m in Sources */,
 				A8693EC8A1631182E765A1EA0F68DDBA /* PTStroke.m in Sources */,
-				9957463AD8DB8DDCF3C915A1AC7F9A3D /* PTThumbnailViewController.m in Sources */,
-				F669D6A55310DC2225D044B22A58037A /* PTThumbnailViewController.xib in Sources */,
 				CB6F146D90B8C93674877E1CCC1677AB /* PTVertex.m in Sources */,
 				07107E6759E1EB32980F9423AFD78C77 /* UIView+UIImage.m in Sources */,
 			);

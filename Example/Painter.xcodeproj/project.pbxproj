@@ -24,48 +24,49 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B18BC0A9CD49398D329CBDD6 /* Pods_Painter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDDFF2101CCC2A79D513889 /* Pods_Painter_Example.framework */; };
-		C59876091E9F2434009304D4 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C59875B41E9F2434009304D4 /* .gitkeep */; };
-		C598760A1E9F2434009304D4 /* background_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875B51E9F2434009304D4 /* background_texture.png */; };
-		C598760B1E9F2434009304D4 /* large_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875B61E9F2434009304D4 /* large_dot.png */; };
-		C598760C1E9F2434009304D4 /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875B71E9F2434009304D4 /* open.png */; };
-		C598760D1E9F2434009304D4 /* palette.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875B81E9F2434009304D4 /* palette.png */; };
-		C598760E1E9F2434009304D4 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875B91E9F2434009304D4 /* placeholder.png */; };
-		C598760F1E9F2434009304D4 /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875BA1E9F2434009304D4 /* redo.png */; };
-		C59876101E9F2434009304D4 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875BB1E9F2434009304D4 /* save.png */; };
-		C59876111E9F2434009304D4 /* small_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875BC1E9F2434009304D4 /* small_dot.png */; };
-		C59876121E9F2434009304D4 /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = C59875BD1E9F2434009304D4 /* undo.png */; };
-		C59876131E9F2434009304D4 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875C11E9F2434009304D4 /* NSMutableArray+Stack.m */; };
-		C59876141E9F2434009304D4 /* PTCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875C31E9F2434009304D4 /* PTCanvasView.m */; };
-		C59876151E9F2434009304D4 /* PTCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875C51E9F2434009304D4 /* PTCanvasViewController.m */; };
-		C59876161E9F2434009304D4 /* PTCanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59875C61E9F2434009304D4 /* PTCanvasViewController.xib */; };
-		C59876171E9F2434009304D4 /* PTCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875C81E9F2434009304D4 /* PTCanvasViewGenerator.m */; };
-		C59876181E9F2434009304D4 /* PTCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875CA1E9F2434009304D4 /* PTCommand.m */; };
-		C59876191E9F2434009304D4 /* PTCommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875CC1E9F2434009304D4 /* PTCommandBarButton.m */; };
-		C598761A1E9F2434009304D4 /* PTCommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875CE1E9F2434009304D4 /* PTCommandSlider.m */; };
-		C598761C1E9F2434009304D4 /* PTDeleteScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875D21E9F2434009304D4 /* PTDeleteScribbleCommand.m */; };
-		C598761D1E9F2434009304D4 /* PTDot.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875D41E9F2434009304D4 /* PTDot.m */; };
-		C598761E1E9F2434009304D4 /* PTMarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875D71E9F2434009304D4 /* PTMarkEnumerator.m */; };
-		C598761F1E9F2434009304D4 /* PTMarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875DA1E9F2434009304D4 /* PTMarkRenderer.m */; };
-		C59876201E9F2434009304D4 /* PTOpenScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875DD1E9F2434009304D4 /* PTOpenScribbleCommand.m */; };
-		C59876211E9F2434009304D4 /* PTPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875DF1E9F2434009304D4 /* PTPaletteViewController.m */; };
-		C59876221E9F2434009304D4 /* PTPaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59875E01E9F2434009304D4 /* PTPaletteViewController.xib */; };
-		C59876231E9F2434009304D4 /* PTSaveScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875E21E9F2434009304D4 /* PTSaveScribbleCommand.m */; };
-		C59876241E9F2434009304D4 /* PTScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875E41E9F2434009304D4 /* PTScribble.m */; };
-		C59876251E9F2434009304D4 /* PTScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875E61E9F2434009304D4 /* PTScribbleManager.m */; };
-		C59876261E9F2434009304D4 /* PTScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875E81E9F2434009304D4 /* PTScribbleMemento.m */; };
-		C59876271E9F2434009304D4 /* PTScribbleThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875EC1E9F2434009304D4 /* PTScribbleThumbnailCell.m */; };
-		C59876281E9F2434009304D4 /* PTScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875EE1E9F2434009304D4 /* PTScribbleThumbnailView.m */; };
-		C59876291E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875F01E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.m */; };
-		C598762A1E9F2434009304D4 /* PTSetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875F21E9F2434009304D4 /* PTSetStrokeColorCommand.m */; };
-		C598762B1E9F2434009304D4 /* PTSetStrokeSizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875F41E9F2434009304D4 /* PTSetStrokeSizeCommand.m */; };
-		C598762C1E9F2434009304D4 /* PTStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875F61E9F2434009304D4 /* PTStroke.m */; };
-		C598762D1E9F2434009304D4 /* PTThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875F81E9F2434009304D4 /* PTThumbnailViewController.m */; };
-		C598762E1E9F2434009304D4 /* PTThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C59875F91E9F2434009304D4 /* PTThumbnailViewController.xib */; };
-		C598762F1E9F2434009304D4 /* PTVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875FB1E9F2434009304D4 /* PTVertex.m */; };
-		C59876301E9F2434009304D4 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C59875FD1E9F2434009304D4 /* UIView+UIImage.m */; };
-		C59876311E9F2434009304D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C59876001E9F2434009304D4 /* Info.plist */; };
-		C59876321E9F2434009304D4 /* Painter.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C59876021E9F2434009304D4 /* Painter.xcconfig */; };
-		C59876331E9F2434009304D4 /* Painter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59876031E9F2434009304D4 /* Painter-dummy.m */; };
+		C51866551E9F8F6700E1B2C0 /* PTCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866531E9F8F6700E1B2C0 /* PTCanvasViewController.m */; };
+		C51866561E9F8F6700E1B2C0 /* PTCanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51866541E9F8F6700E1B2C0 /* PTCanvasViewController.xib */; };
+		C51866591E9F8F9D00E1B2C0 /* PTCoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866581E9F8F9D00E1B2C0 /* PTCoordinatingController.m */; };
+		C518665C1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C518665B1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.m */; };
+		C518665F1E9F902A00E1B2C0 /* PTOpenScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C518665E1E9F902A00E1B2C0 /* PTOpenScribbleCommand.m */; };
+		C51866621E9F905600E1B2C0 /* PTSetStrokeSizeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866611E9F905600E1B2C0 /* PTSetStrokeSizeCommand.m */; };
+		C51866651E9F908200E1B2C0 /* PTSaveScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866641E9F908200E1B2C0 /* PTSaveScribbleCommand.m */; };
+		C51866681E9F90C000E1B2C0 /* PTScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866671E9F90C000E1B2C0 /* PTScribbleManager.m */; };
+		C518666B1E9F910100E1B2C0 /* PTSetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C518666A1E9F910100E1B2C0 /* PTSetStrokeColorCommand.m */; };
+		C518666F1E9F913000E1B2C0 /* PTPaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C518666D1E9F913000E1B2C0 /* PTPaletteViewController.m */; };
+		C51866701E9F913000E1B2C0 /* PTPaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C518666E1E9F913000E1B2C0 /* PTPaletteViewController.xib */; };
+		C51866741E9F915C00E1B2C0 /* PTThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866721E9F915C00E1B2C0 /* PTThumbnailViewController.m */; };
+		C51866751E9F915C00E1B2C0 /* PTThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51866731E9F915C00E1B2C0 /* PTThumbnailViewController.xib */; };
+		C51866B41E9F923800E1B2C0 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C51866761E9F923800E1B2C0 /* .gitkeep */; };
+		C51866B51E9F923800E1B2C0 /* background_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = C51866771E9F923800E1B2C0 /* background_texture.png */; };
+		C51866B61E9F923800E1B2C0 /* large_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C51866781E9F923800E1B2C0 /* large_dot.png */; };
+		C51866B71E9F923800E1B2C0 /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = C51866791E9F923800E1B2C0 /* open.png */; };
+		C51866B81E9F923800E1B2C0 /* palette.png in Resources */ = {isa = PBXBuildFile; fileRef = C518667A1E9F923800E1B2C0 /* palette.png */; };
+		C51866B91E9F923800E1B2C0 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C518667B1E9F923800E1B2C0 /* placeholder.png */; };
+		C51866BA1E9F923800E1B2C0 /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = C518667C1E9F923800E1B2C0 /* redo.png */; };
+		C51866BB1E9F923800E1B2C0 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = C518667D1E9F923800E1B2C0 /* save.png */; };
+		C51866BC1E9F923800E1B2C0 /* small_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C518667E1E9F923800E1B2C0 /* small_dot.png */; };
+		C51866BD1E9F923800E1B2C0 /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = C518667F1E9F923800E1B2C0 /* undo.png */; };
+		C51866BE1E9F923800E1B2C0 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866831E9F923800E1B2C0 /* NSMutableArray+Stack.m */; };
+		C51866BF1E9F923800E1B2C0 /* PTCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866851E9F923800E1B2C0 /* PTCanvasView.m */; };
+		C51866C01E9F923800E1B2C0 /* PTCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866871E9F923800E1B2C0 /* PTCanvasViewGenerator.m */; };
+		C51866C11E9F923800E1B2C0 /* PTCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866891E9F923800E1B2C0 /* PTCommand.m */; };
+		C51866C21E9F923800E1B2C0 /* PTCommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C518668B1E9F923800E1B2C0 /* PTCommandBarButton.m */; };
+		C51866C31E9F923800E1B2C0 /* PTCommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C518668D1E9F923800E1B2C0 /* PTCommandSlider.m */; };
+		C51866C41E9F923800E1B2C0 /* PTDot.m in Sources */ = {isa = PBXBuildFile; fileRef = C518668F1E9F923800E1B2C0 /* PTDot.m */; };
+		C51866C51E9F923800E1B2C0 /* PTMarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866921E9F923800E1B2C0 /* PTMarkEnumerator.m */; };
+		C51866C61E9F923800E1B2C0 /* PTMarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866951E9F923800E1B2C0 /* PTMarkRenderer.m */; };
+		C51866C71E9F923800E1B2C0 /* PTScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866981E9F923800E1B2C0 /* PTScribble.m */; };
+		C51866C81E9F923800E1B2C0 /* PTScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = C518669A1E9F923800E1B2C0 /* PTScribbleMemento.m */; };
+		C51866C91E9F923800E1B2C0 /* PTScribbleThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C518669E1E9F923800E1B2C0 /* PTScribbleThumbnailCell.m */; };
+		C51866CA1E9F923800E1B2C0 /* PTScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866A01E9F923800E1B2C0 /* PTScribbleThumbnailView.m */; };
+		C51866CB1E9F923800E1B2C0 /* PTScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866A21E9F923800E1B2C0 /* PTScribbleThumbnailViewImageProxy.m */; };
+		C51866CC1E9F923800E1B2C0 /* PTStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866A41E9F923800E1B2C0 /* PTStroke.m */; };
+		C51866CD1E9F923800E1B2C0 /* PTVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866A61E9F923800E1B2C0 /* PTVertex.m */; };
+		C51866CE1E9F923800E1B2C0 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866A81E9F923800E1B2C0 /* UIView+UIImage.m */; };
+		C51866CF1E9F923800E1B2C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C51866AB1E9F923800E1B2C0 /* Info.plist */; };
+		C51866D01E9F923800E1B2C0 /* Painter.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C51866AD1E9F923800E1B2C0 /* Painter.xcconfig */; };
+		C51866D11E9F923800E1B2C0 /* Painter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866AE1E9F923800E1B2C0 /* Painter-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,84 +109,84 @@
 		88C630BE9D13BAC1F7A213BC /* Pods_Painter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Painter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1A750BE876BA933DFD8C9A /* Painter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Painter.podspec; path = ../Painter.podspec; sourceTree = "<group>"; };
 		99C83B928D89B35C70BA066F /* Pods-Painter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Painter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Painter_Tests/Pods-Painter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C59875B41E9F2434009304D4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		C59875B51E9F2434009304D4 /* background_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_texture.png; sourceTree = "<group>"; };
-		C59875B61E9F2434009304D4 /* large_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_dot.png; sourceTree = "<group>"; };
-		C59875B71E9F2434009304D4 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
-		C59875B81E9F2434009304D4 /* palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palette.png; sourceTree = "<group>"; };
-		C59875B91E9F2434009304D4 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
-		C59875BA1E9F2434009304D4 /* redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redo.png; sourceTree = "<group>"; };
-		C59875BB1E9F2434009304D4 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
-		C59875BC1E9F2434009304D4 /* small_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_dot.png; sourceTree = "<group>"; };
-		C59875BD1E9F2434009304D4 /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
-		C59875C01E9F2434009304D4 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
-		C59875C11E9F2434009304D4 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
-		C59875C21E9F2434009304D4 /* PTCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasView.h; sourceTree = "<group>"; };
-		C59875C31E9F2434009304D4 /* PTCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasView.m; sourceTree = "<group>"; };
-		C59875C41E9F2434009304D4 /* PTCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewController.h; sourceTree = "<group>"; };
-		C59875C51E9F2434009304D4 /* PTCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewController.m; sourceTree = "<group>"; };
-		C59875C61E9F2434009304D4 /* PTCanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTCanvasViewController.xib; sourceTree = "<group>"; };
-		C59875C71E9F2434009304D4 /* PTCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewGenerator.h; sourceTree = "<group>"; };
-		C59875C81E9F2434009304D4 /* PTCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewGenerator.m; sourceTree = "<group>"; };
-		C59875C91E9F2434009304D4 /* PTCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommand.h; sourceTree = "<group>"; };
-		C59875CA1E9F2434009304D4 /* PTCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommand.m; sourceTree = "<group>"; };
-		C59875CB1E9F2434009304D4 /* PTCommandBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommandBarButton.h; sourceTree = "<group>"; };
-		C59875CC1E9F2434009304D4 /* PTCommandBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommandBarButton.m; sourceTree = "<group>"; };
-		C59875CD1E9F2434009304D4 /* PTCommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommandSlider.h; sourceTree = "<group>"; };
-		C59875CE1E9F2434009304D4 /* PTCommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommandSlider.m; sourceTree = "<group>"; };
-		C59875CF1E9F2434009304D4 /* PTCoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCoordinatingController.h; sourceTree = "<group>"; };
-		C59875D01E9F2434009304D4 /* PTCoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCoordinatingController.m; sourceTree = "<group>"; };
-		C59875D11E9F2434009304D4 /* PTDeleteScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDeleteScribbleCommand.h; sourceTree = "<group>"; };
-		C59875D21E9F2434009304D4 /* PTDeleteScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDeleteScribbleCommand.m; sourceTree = "<group>"; };
-		C59875D31E9F2434009304D4 /* PTDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDot.h; sourceTree = "<group>"; };
-		C59875D41E9F2434009304D4 /* PTDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDot.m; sourceTree = "<group>"; };
-		C59875D51E9F2434009304D4 /* PTMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMark.h; sourceTree = "<group>"; };
-		C59875D61E9F2434009304D4 /* PTMarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkEnumerator.h; sourceTree = "<group>"; };
-		C59875D71E9F2434009304D4 /* PTMarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMarkEnumerator.m; sourceTree = "<group>"; };
-		C59875D81E9F2434009304D4 /* PTMarkEnumerator+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTMarkEnumerator+Internal.h"; sourceTree = "<group>"; };
-		C59875D91E9F2434009304D4 /* PTMarkRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkRenderer.h; sourceTree = "<group>"; };
-		C59875DA1E9F2434009304D4 /* PTMarkRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMarkRenderer.m; sourceTree = "<group>"; };
-		C59875DB1E9F2434009304D4 /* PTMarkVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkVisitor.h; sourceTree = "<group>"; };
-		C59875DC1E9F2434009304D4 /* PTOpenScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTOpenScribbleCommand.h; sourceTree = "<group>"; };
-		C59875DD1E9F2434009304D4 /* PTOpenScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTOpenScribbleCommand.m; sourceTree = "<group>"; };
-		C59875DE1E9F2434009304D4 /* PTPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPaletteViewController.h; sourceTree = "<group>"; };
-		C59875DF1E9F2434009304D4 /* PTPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPaletteViewController.m; sourceTree = "<group>"; };
-		C59875E01E9F2434009304D4 /* PTPaletteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTPaletteViewController.xib; sourceTree = "<group>"; };
-		C59875E11E9F2434009304D4 /* PTSaveScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSaveScribbleCommand.h; sourceTree = "<group>"; };
-		C59875E21E9F2434009304D4 /* PTSaveScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSaveScribbleCommand.m; sourceTree = "<group>"; };
-		C59875E31E9F2434009304D4 /* PTScribble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribble.h; sourceTree = "<group>"; };
-		C59875E41E9F2434009304D4 /* PTScribble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribble.m; sourceTree = "<group>"; };
-		C59875E51E9F2434009304D4 /* PTScribbleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleManager.h; sourceTree = "<group>"; };
-		C59875E61E9F2434009304D4 /* PTScribbleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleManager.m; sourceTree = "<group>"; };
-		C59875E71E9F2434009304D4 /* PTScribbleMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleMemento.h; sourceTree = "<group>"; };
-		C59875E81E9F2434009304D4 /* PTScribbleMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleMemento.m; sourceTree = "<group>"; };
-		C59875E91E9F2434009304D4 /* PTScribbleMemento+Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTScribbleMemento+Friend.h"; sourceTree = "<group>"; };
-		C59875EA1E9F2434009304D4 /* PTScribbleSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleSource.h; sourceTree = "<group>"; };
-		C59875EB1E9F2434009304D4 /* PTScribbleThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailCell.h; sourceTree = "<group>"; };
-		C59875EC1E9F2434009304D4 /* PTScribbleThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailCell.m; sourceTree = "<group>"; };
-		C59875ED1E9F2434009304D4 /* PTScribbleThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailView.h; sourceTree = "<group>"; };
-		C59875EE1E9F2434009304D4 /* PTScribbleThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailView.m; sourceTree = "<group>"; };
-		C59875EF1E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailViewImageProxy.h; sourceTree = "<group>"; };
-		C59875F01E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailViewImageProxy.m; sourceTree = "<group>"; };
-		C59875F11E9F2434009304D4 /* PTSetStrokeColorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSetStrokeColorCommand.h; sourceTree = "<group>"; };
-		C59875F21E9F2434009304D4 /* PTSetStrokeColorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSetStrokeColorCommand.m; sourceTree = "<group>"; };
-		C59875F31E9F2434009304D4 /* PTSetStrokeSizeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSetStrokeSizeCommand.h; sourceTree = "<group>"; };
-		C59875F41E9F2434009304D4 /* PTSetStrokeSizeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSetStrokeSizeCommand.m; sourceTree = "<group>"; };
-		C59875F51E9F2434009304D4 /* PTStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTStroke.h; sourceTree = "<group>"; };
-		C59875F61E9F2434009304D4 /* PTStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTStroke.m; sourceTree = "<group>"; };
-		C59875F71E9F2434009304D4 /* PTThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTThumbnailViewController.h; sourceTree = "<group>"; };
-		C59875F81E9F2434009304D4 /* PTThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTThumbnailViewController.m; sourceTree = "<group>"; };
-		C59875F91E9F2434009304D4 /* PTThumbnailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTThumbnailViewController.xib; sourceTree = "<group>"; };
-		C59875FA1E9F2434009304D4 /* PTVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTVertex.h; sourceTree = "<group>"; };
-		C59875FB1E9F2434009304D4 /* PTVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTVertex.m; sourceTree = "<group>"; };
-		C59875FC1E9F2434009304D4 /* UIView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
-		C59875FD1E9F2434009304D4 /* UIView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
-		C59876001E9F2434009304D4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C59876011E9F2434009304D4 /* Painter.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Painter.modulemap; sourceTree = "<group>"; };
-		C59876021E9F2434009304D4 /* Painter.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Painter.xcconfig; sourceTree = "<group>"; };
-		C59876031E9F2434009304D4 /* Painter-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Painter-dummy.m"; sourceTree = "<group>"; };
-		C59876041E9F2434009304D4 /* Painter-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Painter-prefix.pch"; sourceTree = "<group>"; };
-		C59876051E9F2434009304D4 /* Painter-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Painter-umbrella.h"; sourceTree = "<group>"; };
+		C51866521E9F8F6700E1B2C0 /* PTCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewController.h; sourceTree = "<group>"; };
+		C51866531E9F8F6700E1B2C0 /* PTCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewController.m; sourceTree = "<group>"; };
+		C51866541E9F8F6700E1B2C0 /* PTCanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTCanvasViewController.xib; sourceTree = "<group>"; };
+		C51866571E9F8F9D00E1B2C0 /* PTCoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCoordinatingController.h; sourceTree = "<group>"; };
+		C51866581E9F8F9D00E1B2C0 /* PTCoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCoordinatingController.m; sourceTree = "<group>"; };
+		C518665A1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDeleteScribbleCommand.h; sourceTree = "<group>"; };
+		C518665B1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDeleteScribbleCommand.m; sourceTree = "<group>"; };
+		C518665D1E9F902A00E1B2C0 /* PTOpenScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTOpenScribbleCommand.h; sourceTree = "<group>"; };
+		C518665E1E9F902A00E1B2C0 /* PTOpenScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTOpenScribbleCommand.m; sourceTree = "<group>"; };
+		C51866601E9F905600E1B2C0 /* PTSetStrokeSizeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSetStrokeSizeCommand.h; sourceTree = "<group>"; };
+		C51866611E9F905600E1B2C0 /* PTSetStrokeSizeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSetStrokeSizeCommand.m; sourceTree = "<group>"; };
+		C51866631E9F908200E1B2C0 /* PTSaveScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSaveScribbleCommand.h; sourceTree = "<group>"; };
+		C51866641E9F908200E1B2C0 /* PTSaveScribbleCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSaveScribbleCommand.m; sourceTree = "<group>"; };
+		C51866661E9F90C000E1B2C0 /* PTScribbleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleManager.h; sourceTree = "<group>"; };
+		C51866671E9F90C000E1B2C0 /* PTScribbleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleManager.m; sourceTree = "<group>"; };
+		C51866691E9F910100E1B2C0 /* PTSetStrokeColorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTSetStrokeColorCommand.h; sourceTree = "<group>"; };
+		C518666A1E9F910100E1B2C0 /* PTSetStrokeColorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTSetStrokeColorCommand.m; sourceTree = "<group>"; };
+		C518666C1E9F913000E1B2C0 /* PTPaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPaletteViewController.h; sourceTree = "<group>"; };
+		C518666D1E9F913000E1B2C0 /* PTPaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTPaletteViewController.m; sourceTree = "<group>"; };
+		C518666E1E9F913000E1B2C0 /* PTPaletteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTPaletteViewController.xib; sourceTree = "<group>"; };
+		C51866711E9F915C00E1B2C0 /* PTThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTThumbnailViewController.h; sourceTree = "<group>"; };
+		C51866721E9F915C00E1B2C0 /* PTThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTThumbnailViewController.m; sourceTree = "<group>"; };
+		C51866731E9F915C00E1B2C0 /* PTThumbnailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTThumbnailViewController.xib; sourceTree = "<group>"; };
+		C51866761E9F923800E1B2C0 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		C51866771E9F923800E1B2C0 /* background_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_texture.png; sourceTree = "<group>"; };
+		C51866781E9F923800E1B2C0 /* large_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_dot.png; sourceTree = "<group>"; };
+		C51866791E9F923800E1B2C0 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
+		C518667A1E9F923800E1B2C0 /* palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palette.png; sourceTree = "<group>"; };
+		C518667B1E9F923800E1B2C0 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		C518667C1E9F923800E1B2C0 /* redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redo.png; sourceTree = "<group>"; };
+		C518667D1E9F923800E1B2C0 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		C518667E1E9F923800E1B2C0 /* small_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_dot.png; sourceTree = "<group>"; };
+		C518667F1E9F923800E1B2C0 /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
+		C51866821E9F923800E1B2C0 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		C51866831E9F923800E1B2C0 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		C51866841E9F923800E1B2C0 /* PTCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasView.h; sourceTree = "<group>"; };
+		C51866851E9F923800E1B2C0 /* PTCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasView.m; sourceTree = "<group>"; };
+		C51866861E9F923800E1B2C0 /* PTCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewGenerator.h; sourceTree = "<group>"; };
+		C51866871E9F923800E1B2C0 /* PTCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewGenerator.m; sourceTree = "<group>"; };
+		C51866881E9F923800E1B2C0 /* PTCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommand.h; sourceTree = "<group>"; };
+		C51866891E9F923800E1B2C0 /* PTCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommand.m; sourceTree = "<group>"; };
+		C518668A1E9F923800E1B2C0 /* PTCommandBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommandBarButton.h; sourceTree = "<group>"; };
+		C518668B1E9F923800E1B2C0 /* PTCommandBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommandBarButton.m; sourceTree = "<group>"; };
+		C518668C1E9F923800E1B2C0 /* PTCommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommandSlider.h; sourceTree = "<group>"; };
+		C518668D1E9F923800E1B2C0 /* PTCommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommandSlider.m; sourceTree = "<group>"; };
+		C518668E1E9F923800E1B2C0 /* PTDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDot.h; sourceTree = "<group>"; };
+		C518668F1E9F923800E1B2C0 /* PTDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDot.m; sourceTree = "<group>"; };
+		C51866901E9F923800E1B2C0 /* PTMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMark.h; sourceTree = "<group>"; };
+		C51866911E9F923800E1B2C0 /* PTMarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkEnumerator.h; sourceTree = "<group>"; };
+		C51866921E9F923800E1B2C0 /* PTMarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMarkEnumerator.m; sourceTree = "<group>"; };
+		C51866931E9F923800E1B2C0 /* PTMarkEnumerator+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTMarkEnumerator+Internal.h"; sourceTree = "<group>"; };
+		C51866941E9F923800E1B2C0 /* PTMarkRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkRenderer.h; sourceTree = "<group>"; };
+		C51866951E9F923800E1B2C0 /* PTMarkRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMarkRenderer.m; sourceTree = "<group>"; };
+		C51866961E9F923800E1B2C0 /* PTMarkVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkVisitor.h; sourceTree = "<group>"; };
+		C51866971E9F923800E1B2C0 /* PTScribble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribble.h; sourceTree = "<group>"; };
+		C51866981E9F923800E1B2C0 /* PTScribble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribble.m; sourceTree = "<group>"; };
+		C51866991E9F923800E1B2C0 /* PTScribbleMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleMemento.h; sourceTree = "<group>"; };
+		C518669A1E9F923800E1B2C0 /* PTScribbleMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleMemento.m; sourceTree = "<group>"; };
+		C518669B1E9F923800E1B2C0 /* PTScribbleMemento+Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTScribbleMemento+Friend.h"; sourceTree = "<group>"; };
+		C518669C1E9F923800E1B2C0 /* PTScribbleSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleSource.h; sourceTree = "<group>"; };
+		C518669D1E9F923800E1B2C0 /* PTScribbleThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailCell.h; sourceTree = "<group>"; };
+		C518669E1E9F923800E1B2C0 /* PTScribbleThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailCell.m; sourceTree = "<group>"; };
+		C518669F1E9F923800E1B2C0 /* PTScribbleThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailView.h; sourceTree = "<group>"; };
+		C51866A01E9F923800E1B2C0 /* PTScribbleThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailView.m; sourceTree = "<group>"; };
+		C51866A11E9F923800E1B2C0 /* PTScribbleThumbnailViewImageProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailViewImageProxy.h; sourceTree = "<group>"; };
+		C51866A21E9F923800E1B2C0 /* PTScribbleThumbnailViewImageProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailViewImageProxy.m; sourceTree = "<group>"; };
+		C51866A31E9F923800E1B2C0 /* PTStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTStroke.h; sourceTree = "<group>"; };
+		C51866A41E9F923800E1B2C0 /* PTStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTStroke.m; sourceTree = "<group>"; };
+		C51866A51E9F923800E1B2C0 /* PTVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTVertex.h; sourceTree = "<group>"; };
+		C51866A61E9F923800E1B2C0 /* PTVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTVertex.m; sourceTree = "<group>"; };
+		C51866A71E9F923800E1B2C0 /* UIView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
+		C51866A81E9F923800E1B2C0 /* UIView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
+		C51866AB1E9F923800E1B2C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51866AC1E9F923800E1B2C0 /* Painter.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Painter.modulemap; sourceTree = "<group>"; };
+		C51866AD1E9F923800E1B2C0 /* Painter.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Painter.xcconfig; sourceTree = "<group>"; };
+		C51866AE1E9F923800E1B2C0 /* Painter-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Painter-dummy.m"; sourceTree = "<group>"; };
+		C51866AF1E9F923800E1B2C0 /* Painter-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Painter-prefix.pch"; sourceTree = "<group>"; };
+		C51866B01E9F923800E1B2C0 /* Painter-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Painter-umbrella.h"; sourceTree = "<group>"; };
 		DDCFE9786825016A5FB7DB0E /* Pods-Painter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Painter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Painter_Example/Pods-Painter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -252,13 +253,36 @@
 		6003F593195388D20070C39A /* Example for Painter */ = {
 			isa = PBXGroup;
 			children = (
-				C59876081E9F2434009304D4 /* Development Pods */,
+				C51866B31E9F923800E1B2C0 /* Development Pods */,
 				6003F59C195388D20070C39A /* PTAppDelegate.h */,
 				6003F59D195388D20070C39A /* PTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PTViewController.h */,
 				6003F5A6195388D20070C39A /* PTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				C51866521E9F8F6700E1B2C0 /* PTCanvasViewController.h */,
+				C51866531E9F8F6700E1B2C0 /* PTCanvasViewController.m */,
+				C51866541E9F8F6700E1B2C0 /* PTCanvasViewController.xib */,
+				C51866571E9F8F9D00E1B2C0 /* PTCoordinatingController.h */,
+				C51866581E9F8F9D00E1B2C0 /* PTCoordinatingController.m */,
+				C518665A1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.h */,
+				C518665B1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.m */,
+				C518665D1E9F902A00E1B2C0 /* PTOpenScribbleCommand.h */,
+				C518665E1E9F902A00E1B2C0 /* PTOpenScribbleCommand.m */,
+				C51866601E9F905600E1B2C0 /* PTSetStrokeSizeCommand.h */,
+				C51866611E9F905600E1B2C0 /* PTSetStrokeSizeCommand.m */,
+				C51866631E9F908200E1B2C0 /* PTSaveScribbleCommand.h */,
+				C51866641E9F908200E1B2C0 /* PTSaveScribbleCommand.m */,
+				C51866661E9F90C000E1B2C0 /* PTScribbleManager.h */,
+				C51866671E9F90C000E1B2C0 /* PTScribbleManager.m */,
+				C51866691E9F910100E1B2C0 /* PTSetStrokeColorCommand.h */,
+				C518666A1E9F910100E1B2C0 /* PTSetStrokeColorCommand.m */,
+				C518666C1E9F913000E1B2C0 /* PTPaletteViewController.h */,
+				C518666D1E9F913000E1B2C0 /* PTPaletteViewController.m */,
+				C518666E1E9F913000E1B2C0 /* PTPaletteViewController.xib */,
+				C51866711E9F915C00E1B2C0 /* PTThumbnailViewController.h */,
+				C51866721E9F915C00E1B2C0 /* PTThumbnailViewController.m */,
+				C51866731E9F915C00E1B2C0 /* PTThumbnailViewController.xib */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -306,137 +330,114 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		C59875BE1E9F2434009304D4 /* Images */ = {
+		C51866801E9F923800E1B2C0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				C59875B51E9F2434009304D4 /* background_texture.png */,
-				C59875B61E9F2434009304D4 /* large_dot.png */,
-				C59875B71E9F2434009304D4 /* open.png */,
-				C59875B81E9F2434009304D4 /* palette.png */,
-				C59875B91E9F2434009304D4 /* placeholder.png */,
-				C59875BA1E9F2434009304D4 /* redo.png */,
-				C59875BB1E9F2434009304D4 /* save.png */,
-				C59875BC1E9F2434009304D4 /* small_dot.png */,
-				C59875BD1E9F2434009304D4 /* undo.png */,
+				C51866771E9F923800E1B2C0 /* background_texture.png */,
+				C51866781E9F923800E1B2C0 /* large_dot.png */,
+				C51866791E9F923800E1B2C0 /* open.png */,
+				C518667A1E9F923800E1B2C0 /* palette.png */,
+				C518667B1E9F923800E1B2C0 /* placeholder.png */,
+				C518667C1E9F923800E1B2C0 /* redo.png */,
+				C518667D1E9F923800E1B2C0 /* save.png */,
+				C518667E1E9F923800E1B2C0 /* small_dot.png */,
+				C518667F1E9F923800E1B2C0 /* undo.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
 		};
-		C59875BF1E9F2434009304D4 /* Assets */ = {
+		C51866811E9F923800E1B2C0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C59875B41E9F2434009304D4 /* .gitkeep */,
-				C59875BE1E9F2434009304D4 /* Images */,
+				C51866761E9F923800E1B2C0 /* .gitkeep */,
+				C51866801E9F923800E1B2C0 /* Images */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		C59875FE1E9F2434009304D4 /* Classes */ = {
+		C51866A91E9F923800E1B2C0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C59875C01E9F2434009304D4 /* NSMutableArray+Stack.h */,
-				C59875C11E9F2434009304D4 /* NSMutableArray+Stack.m */,
-				C59875C21E9F2434009304D4 /* PTCanvasView.h */,
-				C59875C31E9F2434009304D4 /* PTCanvasView.m */,
-				C59875C41E9F2434009304D4 /* PTCanvasViewController.h */,
-				C59875C51E9F2434009304D4 /* PTCanvasViewController.m */,
-				C59875C61E9F2434009304D4 /* PTCanvasViewController.xib */,
-				C59875C71E9F2434009304D4 /* PTCanvasViewGenerator.h */,
-				C59875C81E9F2434009304D4 /* PTCanvasViewGenerator.m */,
-				C59875C91E9F2434009304D4 /* PTCommand.h */,
-				C59875CA1E9F2434009304D4 /* PTCommand.m */,
-				C59875CB1E9F2434009304D4 /* PTCommandBarButton.h */,
-				C59875CC1E9F2434009304D4 /* PTCommandBarButton.m */,
-				C59875CD1E9F2434009304D4 /* PTCommandSlider.h */,
-				C59875CE1E9F2434009304D4 /* PTCommandSlider.m */,
-				C59875CF1E9F2434009304D4 /* PTCoordinatingController.h */,
-				C59875D01E9F2434009304D4 /* PTCoordinatingController.m */,
-				C59875D11E9F2434009304D4 /* PTDeleteScribbleCommand.h */,
-				C59875D21E9F2434009304D4 /* PTDeleteScribbleCommand.m */,
-				C59875D31E9F2434009304D4 /* PTDot.h */,
-				C59875D41E9F2434009304D4 /* PTDot.m */,
-				C59875D51E9F2434009304D4 /* PTMark.h */,
-				C59875D61E9F2434009304D4 /* PTMarkEnumerator.h */,
-				C59875D71E9F2434009304D4 /* PTMarkEnumerator.m */,
-				C59875D81E9F2434009304D4 /* PTMarkEnumerator+Internal.h */,
-				C59875D91E9F2434009304D4 /* PTMarkRenderer.h */,
-				C59875DA1E9F2434009304D4 /* PTMarkRenderer.m */,
-				C59875DB1E9F2434009304D4 /* PTMarkVisitor.h */,
-				C59875DC1E9F2434009304D4 /* PTOpenScribbleCommand.h */,
-				C59875DD1E9F2434009304D4 /* PTOpenScribbleCommand.m */,
-				C59875DE1E9F2434009304D4 /* PTPaletteViewController.h */,
-				C59875DF1E9F2434009304D4 /* PTPaletteViewController.m */,
-				C59875E01E9F2434009304D4 /* PTPaletteViewController.xib */,
-				C59875E11E9F2434009304D4 /* PTSaveScribbleCommand.h */,
-				C59875E21E9F2434009304D4 /* PTSaveScribbleCommand.m */,
-				C59875E31E9F2434009304D4 /* PTScribble.h */,
-				C59875E41E9F2434009304D4 /* PTScribble.m */,
-				C59875E51E9F2434009304D4 /* PTScribbleManager.h */,
-				C59875E61E9F2434009304D4 /* PTScribbleManager.m */,
-				C59875E71E9F2434009304D4 /* PTScribbleMemento.h */,
-				C59875E81E9F2434009304D4 /* PTScribbleMemento.m */,
-				C59875E91E9F2434009304D4 /* PTScribbleMemento+Friend.h */,
-				C59875EA1E9F2434009304D4 /* PTScribbleSource.h */,
-				C59875EB1E9F2434009304D4 /* PTScribbleThumbnailCell.h */,
-				C59875EC1E9F2434009304D4 /* PTScribbleThumbnailCell.m */,
-				C59875ED1E9F2434009304D4 /* PTScribbleThumbnailView.h */,
-				C59875EE1E9F2434009304D4 /* PTScribbleThumbnailView.m */,
-				C59875EF1E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.h */,
-				C59875F01E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.m */,
-				C59875F11E9F2434009304D4 /* PTSetStrokeColorCommand.h */,
-				C59875F21E9F2434009304D4 /* PTSetStrokeColorCommand.m */,
-				C59875F31E9F2434009304D4 /* PTSetStrokeSizeCommand.h */,
-				C59875F41E9F2434009304D4 /* PTSetStrokeSizeCommand.m */,
-				C59875F51E9F2434009304D4 /* PTStroke.h */,
-				C59875F61E9F2434009304D4 /* PTStroke.m */,
-				C59875F71E9F2434009304D4 /* PTThumbnailViewController.h */,
-				C59875F81E9F2434009304D4 /* PTThumbnailViewController.m */,
-				C59875F91E9F2434009304D4 /* PTThumbnailViewController.xib */,
-				C59875FA1E9F2434009304D4 /* PTVertex.h */,
-				C59875FB1E9F2434009304D4 /* PTVertex.m */,
-				C59875FC1E9F2434009304D4 /* UIView+UIImage.h */,
-				C59875FD1E9F2434009304D4 /* UIView+UIImage.m */,
+				C51866821E9F923800E1B2C0 /* NSMutableArray+Stack.h */,
+				C51866831E9F923800E1B2C0 /* NSMutableArray+Stack.m */,
+				C51866841E9F923800E1B2C0 /* PTCanvasView.h */,
+				C51866851E9F923800E1B2C0 /* PTCanvasView.m */,
+				C51866861E9F923800E1B2C0 /* PTCanvasViewGenerator.h */,
+				C51866871E9F923800E1B2C0 /* PTCanvasViewGenerator.m */,
+				C51866881E9F923800E1B2C0 /* PTCommand.h */,
+				C51866891E9F923800E1B2C0 /* PTCommand.m */,
+				C518668A1E9F923800E1B2C0 /* PTCommandBarButton.h */,
+				C518668B1E9F923800E1B2C0 /* PTCommandBarButton.m */,
+				C518668C1E9F923800E1B2C0 /* PTCommandSlider.h */,
+				C518668D1E9F923800E1B2C0 /* PTCommandSlider.m */,
+				C518668E1E9F923800E1B2C0 /* PTDot.h */,
+				C518668F1E9F923800E1B2C0 /* PTDot.m */,
+				C51866901E9F923800E1B2C0 /* PTMark.h */,
+				C51866911E9F923800E1B2C0 /* PTMarkEnumerator.h */,
+				C51866921E9F923800E1B2C0 /* PTMarkEnumerator.m */,
+				C51866931E9F923800E1B2C0 /* PTMarkEnumerator+Internal.h */,
+				C51866941E9F923800E1B2C0 /* PTMarkRenderer.h */,
+				C51866951E9F923800E1B2C0 /* PTMarkRenderer.m */,
+				C51866961E9F923800E1B2C0 /* PTMarkVisitor.h */,
+				C51866971E9F923800E1B2C0 /* PTScribble.h */,
+				C51866981E9F923800E1B2C0 /* PTScribble.m */,
+				C51866991E9F923800E1B2C0 /* PTScribbleMemento.h */,
+				C518669A1E9F923800E1B2C0 /* PTScribbleMemento.m */,
+				C518669B1E9F923800E1B2C0 /* PTScribbleMemento+Friend.h */,
+				C518669C1E9F923800E1B2C0 /* PTScribbleSource.h */,
+				C518669D1E9F923800E1B2C0 /* PTScribbleThumbnailCell.h */,
+				C518669E1E9F923800E1B2C0 /* PTScribbleThumbnailCell.m */,
+				C518669F1E9F923800E1B2C0 /* PTScribbleThumbnailView.h */,
+				C51866A01E9F923800E1B2C0 /* PTScribbleThumbnailView.m */,
+				C51866A11E9F923800E1B2C0 /* PTScribbleThumbnailViewImageProxy.h */,
+				C51866A21E9F923800E1B2C0 /* PTScribbleThumbnailViewImageProxy.m */,
+				C51866A31E9F923800E1B2C0 /* PTStroke.h */,
+				C51866A41E9F923800E1B2C0 /* PTStroke.m */,
+				C51866A51E9F923800E1B2C0 /* PTVertex.h */,
+				C51866A61E9F923800E1B2C0 /* PTVertex.m */,
+				C51866A71E9F923800E1B2C0 /* UIView+UIImage.h */,
+				C51866A81E9F923800E1B2C0 /* UIView+UIImage.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		C59875FF1E9F2434009304D4 /* Painter */ = {
+		C51866AA1E9F923800E1B2C0 /* Painter */ = {
 			isa = PBXGroup;
 			children = (
-				C59875BF1E9F2434009304D4 /* Assets */,
-				C59875FE1E9F2434009304D4 /* Classes */,
+				C51866811E9F923800E1B2C0 /* Assets */,
+				C51866A91E9F923800E1B2C0 /* Classes */,
 			);
 			path = Painter;
 			sourceTree = "<group>";
 		};
-		C59876061E9F2434009304D4 /* Support Files */ = {
+		C51866B11E9F923800E1B2C0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C59876001E9F2434009304D4 /* Info.plist */,
-				C59876011E9F2434009304D4 /* Painter.modulemap */,
-				C59876021E9F2434009304D4 /* Painter.xcconfig */,
-				C59876031E9F2434009304D4 /* Painter-dummy.m */,
-				C59876041E9F2434009304D4 /* Painter-prefix.pch */,
-				C59876051E9F2434009304D4 /* Painter-umbrella.h */,
+				C51866AB1E9F923800E1B2C0 /* Info.plist */,
+				C51866AC1E9F923800E1B2C0 /* Painter.modulemap */,
+				C51866AD1E9F923800E1B2C0 /* Painter.xcconfig */,
+				C51866AE1E9F923800E1B2C0 /* Painter-dummy.m */,
+				C51866AF1E9F923800E1B2C0 /* Painter-prefix.pch */,
+				C51866B01E9F923800E1B2C0 /* Painter-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Painter";
 			sourceTree = "<group>";
 		};
-		C59876071E9F2434009304D4 /* Painter */ = {
+		C51866B21E9F923800E1B2C0 /* Painter */ = {
 			isa = PBXGroup;
 			children = (
-				C59875FF1E9F2434009304D4 /* Painter */,
-				C59876061E9F2434009304D4 /* Support Files */,
+				C51866AA1E9F923800E1B2C0 /* Painter */,
+				C51866B11E9F923800E1B2C0 /* Support Files */,
 			);
 			name = Painter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		C59876081E9F2434009304D4 /* Development Pods */ = {
+		C51866B31E9F923800E1B2C0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C59876071E9F2434009304D4 /* Painter */,
+				C51866B21E9F923800E1B2C0 /* Painter */,
 			);
 			name = "Development Pods";
 			path = ../Pods;
@@ -537,24 +538,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				C598760F1E9F2434009304D4 /* redo.png in Resources */,
-				C59876311E9F2434009304D4 /* Info.plist in Resources */,
-				C59876111E9F2434009304D4 /* small_dot.png in Resources */,
-				C598762E1E9F2434009304D4 /* PTThumbnailViewController.xib in Resources */,
-				C59876101E9F2434009304D4 /* save.png in Resources */,
-				C598760D1E9F2434009304D4 /* palette.png in Resources */,
-				C598760B1E9F2434009304D4 /* large_dot.png in Resources */,
-				C598760E1E9F2434009304D4 /* placeholder.png in Resources */,
+				C51866B81E9F923800E1B2C0 /* palette.png in Resources */,
+				C51866CF1E9F923800E1B2C0 /* Info.plist in Resources */,
+				C51866751E9F915C00E1B2C0 /* PTThumbnailViewController.xib in Resources */,
+				C51866B91E9F923800E1B2C0 /* placeholder.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				C59876091E9F2434009304D4 /* .gitkeep in Resources */,
-				C59876321E9F2434009304D4 /* Painter.xcconfig in Resources */,
-				C59876161E9F2434009304D4 /* PTCanvasViewController.xib in Resources */,
-				C598760A1E9F2434009304D4 /* background_texture.png in Resources */,
-				C598760C1E9F2434009304D4 /* open.png in Resources */,
-				C59876121E9F2434009304D4 /* undo.png in Resources */,
+				C51866BA1E9F923800E1B2C0 /* redo.png in Resources */,
+				C51866B61E9F923800E1B2C0 /* large_dot.png in Resources */,
+				C51866B51E9F923800E1B2C0 /* background_texture.png in Resources */,
+				C51866561E9F8F6700E1B2C0 /* PTCanvasViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				C59876221E9F2434009304D4 /* PTPaletteViewController.xib in Resources */,
+				C51866D01E9F923800E1B2C0 /* Painter.xcconfig in Resources */,
+				C51866701E9F913000E1B2C0 /* PTPaletteViewController.xib in Resources */,
+				C51866BB1E9F923800E1B2C0 /* save.png in Resources */,
+				C51866BD1E9F923800E1B2C0 /* undo.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				C51866B71E9F923800E1B2C0 /* open.png in Resources */,
+				C51866B41E9F923800E1B2C0 /* .gitkeep in Resources */,
+				C51866BC1E9F923800E1B2C0 /* small_dot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,36 +667,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C598761F1E9F2434009304D4 /* PTMarkRenderer.m in Sources */,
-				C59876131E9F2434009304D4 /* NSMutableArray+Stack.m in Sources */,
-				C59876181E9F2434009304D4 /* PTCommand.m in Sources */,
-				C59876261E9F2434009304D4 /* PTScribbleMemento.m in Sources */,
-				C59876281E9F2434009304D4 /* PTScribbleThumbnailView.m in Sources */,
+				C51866C11E9F923800E1B2C0 /* PTCommand.m in Sources */,
+				C51866C41E9F923800E1B2C0 /* PTDot.m in Sources */,
+				C51866BE1E9F923800E1B2C0 /* NSMutableArray+Stack.m in Sources */,
 				6003F59E195388D20070C39A /* PTAppDelegate.m in Sources */,
-				C598762B1E9F2434009304D4 /* PTSetStrokeSizeCommand.m in Sources */,
-				C598761E1E9F2434009304D4 /* PTMarkEnumerator.m in Sources */,
-				C59876151E9F2434009304D4 /* PTCanvasViewController.m in Sources */,
-				C59876271E9F2434009304D4 /* PTScribbleThumbnailCell.m in Sources */,
-				C59876241E9F2434009304D4 /* PTScribble.m in Sources */,
-				C598762C1E9F2434009304D4 /* PTStroke.m in Sources */,
-				C598762D1E9F2434009304D4 /* PTThumbnailViewController.m in Sources */,
-				C59876171E9F2434009304D4 /* PTCanvasViewGenerator.m in Sources */,
+				C518666F1E9F913000E1B2C0 /* PTPaletteViewController.m in Sources */,
+				C51866CC1E9F923800E1B2C0 /* PTStroke.m in Sources */,
+				C51866C31E9F923800E1B2C0 /* PTCommandSlider.m in Sources */,
+				C51866651E9F908200E1B2C0 /* PTSaveScribbleCommand.m in Sources */,
+				C51866C01E9F923800E1B2C0 /* PTCanvasViewGenerator.m in Sources */,
+				C51866BF1E9F923800E1B2C0 /* PTCanvasView.m in Sources */,
+				C518665F1E9F902A00E1B2C0 /* PTOpenScribbleCommand.m in Sources */,
 				6003F5A7195388D20070C39A /* PTViewController.m in Sources */,
-				C598761D1E9F2434009304D4 /* PTDot.m in Sources */,
-				C59876251E9F2434009304D4 /* PTScribbleManager.m in Sources */,
-				C598762F1E9F2434009304D4 /* PTVertex.m in Sources */,
-				C59876231E9F2434009304D4 /* PTSaveScribbleCommand.m in Sources */,
-				C59876191E9F2434009304D4 /* PTCommandBarButton.m in Sources */,
-				C598761C1E9F2434009304D4 /* PTDeleteScribbleCommand.m in Sources */,
+				C51866C51E9F923800E1B2C0 /* PTMarkEnumerator.m in Sources */,
+				C518665C1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.m in Sources */,
+				C51866CA1E9F923800E1B2C0 /* PTScribbleThumbnailView.m in Sources */,
+				C51866C81E9F923800E1B2C0 /* PTScribbleMemento.m in Sources */,
+				C51866C61E9F923800E1B2C0 /* PTMarkRenderer.m in Sources */,
+				C51866681E9F90C000E1B2C0 /* PTScribbleManager.m in Sources */,
+				C51866CD1E9F923800E1B2C0 /* PTVertex.m in Sources */,
+				C51866621E9F905600E1B2C0 /* PTSetStrokeSizeCommand.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				C59876201E9F2434009304D4 /* PTOpenScribbleCommand.m in Sources */,
-				C59876301E9F2434009304D4 /* UIView+UIImage.m in Sources */,
-				C59876291E9F2434009304D4 /* PTScribbleThumbnailViewImageProxy.m in Sources */,
-				C598761A1E9F2434009304D4 /* PTCommandSlider.m in Sources */,
-				C59876331E9F2434009304D4 /* Painter-dummy.m in Sources */,
-				C59876141E9F2434009304D4 /* PTCanvasView.m in Sources */,
-				C59876211E9F2434009304D4 /* PTPaletteViewController.m in Sources */,
-				C598762A1E9F2434009304D4 /* PTSetStrokeColorCommand.m in Sources */,
+				C51866551E9F8F6700E1B2C0 /* PTCanvasViewController.m in Sources */,
+				C518666B1E9F910100E1B2C0 /* PTSetStrokeColorCommand.m in Sources */,
+				C51866C21E9F923800E1B2C0 /* PTCommandBarButton.m in Sources */,
+				C51866CE1E9F923800E1B2C0 /* UIView+UIImage.m in Sources */,
+				C51866C71E9F923800E1B2C0 /* PTScribble.m in Sources */,
+				C51866CB1E9F923800E1B2C0 /* PTScribbleThumbnailViewImageProxy.m in Sources */,
+				C51866D11E9F923800E1B2C0 /* Painter-dummy.m in Sources */,
+				C51866741E9F915C00E1B2C0 /* PTThumbnailViewController.m in Sources */,
+				C51866C91E9F923800E1B2C0 /* PTScribbleThumbnailCell.m in Sources */,
+				C51866591E9F8F9D00E1B2C0 /* PTCoordinatingController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
