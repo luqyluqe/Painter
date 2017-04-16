@@ -32,3 +32,15 @@
 - (void) drawWithContext:(CGContextRef) context;
 
 @end
+
+@protocol PTMarkSerialization <NSObject>
+
+// serialization
+-(NSString*)stringBySerializingMark:(id<PTMark>)mark;
+-(NSData*)dataBySerializingMark:(id<PTMark>)mark;
+
+// deserialization
+-(id<PTMark>)markByDeserializingString:(NSString*)string;
+-(id<PTMark>)markByDeserializingData:(NSData*)data;
+
+@end
