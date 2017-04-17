@@ -12,6 +12,7 @@
 @property (nonatomic, strong) UIColor *color;
 @property (nonatomic, assign) CGFloat size;
 @property (nonatomic, assign) CGPoint location;
+@property (nonatomic, copy) NSDate* date;
 @property (nonatomic, readonly) NSUInteger count;
 @property (nonatomic, readonly) id <PTMark> lastChild;
 

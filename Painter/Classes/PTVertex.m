@@ -14,6 +14,7 @@
   if (self = [super init])
   {
     self.location = aLocation;
+      self.date=[NSDate date];
   }
   
   return self;
