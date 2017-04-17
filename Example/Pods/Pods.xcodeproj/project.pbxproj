@@ -44,6 +44,8 @@
 		B5A01432AB9655C04B886C02D59BADCF /* PTCommandSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 759B4C5F0582AE56EE64F4165EB1084F /* PTCommandSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B63589CF8EEC1BC42EC11839A221F3FE /* PTScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFE8046174BAE0FD13246FCE7CD8F4B /* PTScribble.m */; };
 		B9CEAC95BD1E254047DC4CC47147D9D3 /* PTScribbleThumbnailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BE52C8E85414C03F4B3810CB61941C3D /* PTScribbleThumbnailCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C55EB7F31EA46AB100A79023 /* PTGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = C55EB7F11EA46AB100A79023 /* PTGraph.h */; };
+		C55EB7F41EA46AB100A79023 /* PTGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB7F21EA46AB100A79023 /* PTGraph.m */; };
 		CB6F146D90B8C93674877E1CCC1677AB /* PTVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2B78DC7C1DB0EA49547CAFF42B3D8 /* PTVertex.m */; };
 		CDC5049380C46DA2466CD1F54DE503EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D815B8E552B4A77C1D4372FFB9F09336 /* Pods-Painter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5AF56AF3A6794E4610BDF3193483E5B /* Pods-Painter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -122,6 +124,8 @@
 		BE52C8E85414C03F4B3810CB61941C3D /* PTScribbleThumbnailCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailCell.h; sourceTree = "<group>"; };
 		C3FBA5C7F352F0092E24175730FFDEAB /* Pods-Painter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Painter_Example-dummy.m"; sourceTree = "<group>"; };
 		C4D8907A9303E518E11A94F448C792E6 /* UIView+UIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
+		C55EB7F11EA46AB100A79023 /* PTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTGraph.h; sourceTree = "<group>"; };
+		C55EB7F21EA46AB100A79023 /* PTGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTGraph.m; sourceTree = "<group>"; };
 		C59875A91E9F23B8009304D4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		C59875AB1E9F23D0009304D4 /* background_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_texture.png; sourceTree = "<group>"; };
 		C59875AC1E9F23D0009304D4 /* large_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_dot.png; sourceTree = "<group>"; };
@@ -312,6 +316,8 @@
 				5CC2B78DC7C1DB0EA49547CAFF42B3D8 /* PTVertex.m */,
 				EE588440BC9C53D209E07B34D39896F8 /* UIView+UIImage.h */,
 				C4D8907A9303E518E11A94F448C792E6 /* UIView+UIImage.m */,
+				C55EB7F11EA46AB100A79023 /* PTGraph.h */,
+				C55EB7F21EA46AB100A79023 /* PTGraph.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 				F2889B36BAF0109C4C79CB326185A51F /* PTMarkEnumerator.h in Headers */,
 				A26D8C7A1E34D80DB0BF382FEAE94151 /* PTMarkRenderer.h in Headers */,
 				A71237B80203E724543D4C637E84F3D1 /* PTMarkVisitor.h in Headers */,
+				C55EB7F31EA46AB100A79023 /* PTGraph.h in Headers */,
 				8B539465D08F3C03D3C2AAFACDC20DED /* PTScribble.h in Headers */,
 				9891CE8B24C5479C6BA0CC6C7200BB78 /* PTScribbleMemento+Friend.h in Headers */,
 				B3BC29FB9A63DD9107C62673293389FC /* PTScribbleMemento.h in Headers */,
@@ -525,6 +532,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C55EB7F41EA46AB100A79023 /* PTGraph.m in Sources */,
 				3A60E4E996D36E06EAEB370E0F9547D9 /* NSMutableArray+Stack.m in Sources */,
 				E5151A8571A0E9290AC625A9B1D9C3DF /* Painter-dummy.m in Sources */,
 				F559FD86933FEBAE597324111BA99D57 /* PTCanvasView.m in Sources */,

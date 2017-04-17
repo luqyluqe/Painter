@@ -5,7 +5,7 @@
 
 #import "PTScribbleMemento+Friend.h"
 #import "PTScribble.h"
-#import "PTStroke.h"
+#import "PTGraph.h"
 
 // A private category for PTScribble
 // that contains a mark property available
@@ -25,7 +25,7 @@
   {
     // the parent should be a composite
     // object (i.e. PTStroke)
-    self.mark = [[PTStroke alloc] init];
+    self.mark = [[PTGraph alloc] init];
   }
   
   return self;
