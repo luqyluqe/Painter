@@ -19,5 +19,6 @@
 
 @property (nonatomic, readonly) NSData *data;
 @property (nonatomic, readonly) NSString* stringSerialization;
+@property (nonatomic, readonly) NSDictionary* dictionarySerialization;
 
 @end

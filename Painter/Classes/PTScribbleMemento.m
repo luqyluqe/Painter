@@ -66,6 +66,15 @@
     return nil;
 }
 
+-(NSDictionary*)dictionarySerialization
+{
+    if ([self.self.serializer respondsToSelector:@selector(dictionaryBySerializingMark:)]) {
+        NSDictionary* dictionary=[self.serializer dictionaryBySerializingMark:self.mark];
+        return dictionary;
+    }
+    return nil;
+}
+
 + (PTScribbleMemento *) mementoWithData:(NSData *)data
 {
   // It raises an NSInvalidArchiveOperationException if data is not a valid archive

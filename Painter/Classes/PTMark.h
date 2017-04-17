@@ -36,10 +36,12 @@
 @protocol PTMarkSerialization <NSObject>
 
 // serialization
+-(NSDictionary*)dictionaryBySerializingMark:(id<PTMark>)mark;
 -(NSString*)stringBySerializingMark:(id<PTMark>)mark;
 -(NSData*)dataBySerializingMark:(id<PTMark>)mark;
 
 // deserialization
+-(id<PTMark>)markByDeserializingDictionary:(NSDictionary*)dictionary;
 -(id<PTMark>)markByDeserializingString:(NSString*)string;
 -(id<PTMark>)markByDeserializingData:(NSData*)data;
 
