@@ -4,7 +4,7 @@
 
 #import "PTSetStrokeSizeCommand.h"
 #import "PTCoordinatingController.h"
-#import "PTCanvasViewController.h"
+#import "PTExampleCanvasViewController.h"
 
 @implementation PTSetStrokeSizeCommand
 
@@ -21,7 +21,7 @@
   // (see the Mediator pattern chapter
   // for details)
   PTCoordinatingController *coordinator = [PTCoordinatingController sharedInstance];
-  PTCanvasViewController *controller = coordinator.canvasViewController;
+  PTExampleCanvasViewController *controller = coordinator.canvasViewController;
   
   // assign the stroke size to
   // the canvasViewController

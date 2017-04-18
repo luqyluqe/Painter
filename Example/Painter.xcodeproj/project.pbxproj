@@ -24,8 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B18BC0A9CD49398D329CBDD6 /* Pods_Painter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDDFF2101CCC2A79D513889 /* Pods_Painter_Example.framework */; };
-		C51866551E9F8F6700E1B2C0 /* PTCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866531E9F8F6700E1B2C0 /* PTCanvasViewController.m */; };
-		C51866561E9F8F6700E1B2C0 /* PTCanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51866541E9F8F6700E1B2C0 /* PTCanvasViewController.xib */; };
+		C51866551E9F8F6700E1B2C0 /* PTExampleCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866531E9F8F6700E1B2C0 /* PTExampleCanvasViewController.m */; };
+		C51866561E9F8F6700E1B2C0 /* PTExampleCanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51866541E9F8F6700E1B2C0 /* PTExampleCanvasViewController.xib */; };
 		C51866591E9F8F9D00E1B2C0 /* PTCoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866581E9F8F9D00E1B2C0 /* PTCoordinatingController.m */; };
 		C518665C1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C518665B1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.m */; };
 		C518665F1E9F902A00E1B2C0 /* PTOpenScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C518665E1E9F902A00E1B2C0 /* PTOpenScribbleCommand.m */; };
@@ -37,37 +37,38 @@
 		C51866701E9F913000E1B2C0 /* PTPaletteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C518666E1E9F913000E1B2C0 /* PTPaletteViewController.xib */; };
 		C51866741E9F915C00E1B2C0 /* PTThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51866721E9F915C00E1B2C0 /* PTThumbnailViewController.m */; };
 		C51866751E9F915C00E1B2C0 /* PTThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C51866731E9F915C00E1B2C0 /* PTThumbnailViewController.xib */; };
-		C55EB8351EA46ACF00A79023 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C55EB7F51EA46ACF00A79023 /* .gitkeep */; };
-		C55EB8361EA46ACF00A79023 /* background_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = C55EB7F61EA46ACF00A79023 /* background_texture.png */; };
-		C55EB8371EA46ACF00A79023 /* large_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C55EB7F71EA46ACF00A79023 /* large_dot.png */; };
-		C55EB8381EA46AD000A79023 /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = C55EB7F81EA46ACF00A79023 /* open.png */; };
-		C55EB8391EA46AD000A79023 /* palette.png in Resources */ = {isa = PBXBuildFile; fileRef = C55EB7F91EA46ACF00A79023 /* palette.png */; };
-		C55EB83A1EA46AD000A79023 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C55EB7FA1EA46ACF00A79023 /* placeholder.png */; };
-		C55EB83B1EA46AD000A79023 /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = C55EB7FB1EA46ACF00A79023 /* redo.png */; };
-		C55EB83C1EA46AD000A79023 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = C55EB7FC1EA46ACF00A79023 /* save.png */; };
-		C55EB83D1EA46AD000A79023 /* small_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C55EB7FD1EA46ACF00A79023 /* small_dot.png */; };
-		C55EB83E1EA46AD000A79023 /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = C55EB7FE1EA46ACF00A79023 /* undo.png */; };
-		C55EB83F1EA46AD000A79023 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8021EA46ACF00A79023 /* NSMutableArray+Stack.m */; };
-		C55EB8401EA46AD000A79023 /* PTCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8041EA46ACF00A79023 /* PTCanvasView.m */; };
-		C55EB8411EA46AD000A79023 /* PTCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8061EA46ACF00A79023 /* PTCanvasViewGenerator.m */; };
-		C55EB8421EA46AD000A79023 /* PTCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8081EA46ACF00A79023 /* PTCommand.m */; };
-		C55EB8431EA46AD000A79023 /* PTCommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB80A1EA46ACF00A79023 /* PTCommandBarButton.m */; };
-		C55EB8441EA46AD000A79023 /* PTCommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB80C1EA46ACF00A79023 /* PTCommandSlider.m */; };
-		C55EB8451EA46AD000A79023 /* PTDot.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB80E1EA46ACF00A79023 /* PTDot.m */; };
-		C55EB8461EA46AD000A79023 /* PTMarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8111EA46ACF00A79023 /* PTMarkEnumerator.m */; };
-		C55EB8471EA46AD000A79023 /* PTMarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8141EA46ACF00A79023 /* PTMarkRenderer.m */; };
-		C55EB8481EA46AD000A79023 /* PTScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8171EA46ACF00A79023 /* PTScribble.m */; };
-		C55EB8491EA46AD000A79023 /* PTScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8191EA46ACF00A79023 /* PTScribbleMemento.m */; };
-		C55EB84A1EA46AD000A79023 /* PTScribbleThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB81D1EA46ACF00A79023 /* PTScribbleThumbnailCell.m */; };
-		C55EB84B1EA46AD000A79023 /* PTScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB81F1EA46ACF00A79023 /* PTScribbleThumbnailView.m */; };
-		C55EB84C1EA46AD000A79023 /* PTScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8211EA46ACF00A79023 /* PTScribbleThumbnailViewImageProxy.m */; };
-		C55EB84D1EA46AD000A79023 /* PTStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8231EA46ACF00A79023 /* PTStroke.m */; };
-		C55EB84E1EA46AD000A79023 /* PTVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8251EA46ACF00A79023 /* PTVertex.m */; };
-		C55EB84F1EA46AD000A79023 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8271EA46ACF00A79023 /* UIView+UIImage.m */; };
-		C55EB8501EA46AD000A79023 /* PTGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB8291EA46ACF00A79023 /* PTGraph.m */; };
-		C55EB8511EA46AD000A79023 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C55EB82C1EA46ACF00A79023 /* Info.plist */; };
-		C55EB8521EA46AD000A79023 /* Painter.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C55EB82E1EA46ACF00A79023 /* Painter.xcconfig */; };
-		C55EB8531EA46AD000A79023 /* Painter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB82F1EA46ACF00A79023 /* Painter-dummy.m */; };
+		C56C32A41EA62F6700A4DF70 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = C56C32621EA62F6700A4DF70 /* .gitkeep */; };
+		C56C32A51EA62F6700A4DF70 /* background_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = C56C32631EA62F6700A4DF70 /* background_texture.png */; };
+		C56C32A61EA62F6700A4DF70 /* large_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C56C32641EA62F6700A4DF70 /* large_dot.png */; };
+		C56C32A71EA62F6700A4DF70 /* open.png in Resources */ = {isa = PBXBuildFile; fileRef = C56C32651EA62F6700A4DF70 /* open.png */; };
+		C56C32A81EA62F6700A4DF70 /* palette.png in Resources */ = {isa = PBXBuildFile; fileRef = C56C32661EA62F6700A4DF70 /* palette.png */; };
+		C56C32A91EA62F6700A4DF70 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C56C32671EA62F6700A4DF70 /* placeholder.png */; };
+		C56C32AA1EA62F6700A4DF70 /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = C56C32681EA62F6700A4DF70 /* redo.png */; };
+		C56C32AB1EA62F6700A4DF70 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = C56C32691EA62F6700A4DF70 /* save.png */; };
+		C56C32AC1EA62F6700A4DF70 /* small_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C56C326A1EA62F6700A4DF70 /* small_dot.png */; };
+		C56C32AD1EA62F6700A4DF70 /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = C56C326B1EA62F6700A4DF70 /* undo.png */; };
+		C56C32AE1EA62F6700A4DF70 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C326F1EA62F6700A4DF70 /* NSMutableArray+Stack.m */; };
+		C56C32AF1EA62F6700A4DF70 /* PTCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32711EA62F6700A4DF70 /* PTCanvasView.m */; };
+		C56C32B01EA62F6700A4DF70 /* PTCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32731EA62F6700A4DF70 /* PTCanvasViewGenerator.m */; };
+		C56C32B11EA62F6700A4DF70 /* PTCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32751EA62F6700A4DF70 /* PTCommand.m */; };
+		C56C32B21EA62F6700A4DF70 /* PTCommandBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32771EA62F6700A4DF70 /* PTCommandBarButton.m */; };
+		C56C32B31EA62F6700A4DF70 /* PTCommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32791EA62F6700A4DF70 /* PTCommandSlider.m */; };
+		C56C32B41EA62F6700A4DF70 /* PTDot.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C327B1EA62F6700A4DF70 /* PTDot.m */; };
+		C56C32B51EA62F6700A4DF70 /* PTMarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C327E1EA62F6700A4DF70 /* PTMarkEnumerator.m */; };
+		C56C32B61EA62F6700A4DF70 /* PTMarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32811EA62F6700A4DF70 /* PTMarkRenderer.m */; };
+		C56C32B71EA62F6700A4DF70 /* PTScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32841EA62F6700A4DF70 /* PTScribble.m */; };
+		C56C32B81EA62F6700A4DF70 /* PTScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32861EA62F6700A4DF70 /* PTScribbleMemento.m */; };
+		C56C32B91EA62F6700A4DF70 /* PTScribbleThumbnailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C328A1EA62F6700A4DF70 /* PTScribbleThumbnailCell.m */; };
+		C56C32BA1EA62F6700A4DF70 /* PTScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C328C1EA62F6700A4DF70 /* PTScribbleThumbnailView.m */; };
+		C56C32BB1EA62F6700A4DF70 /* PTScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C328E1EA62F6700A4DF70 /* PTScribbleThumbnailViewImageProxy.m */; };
+		C56C32BC1EA62F6700A4DF70 /* PTStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32901EA62F6700A4DF70 /* PTStroke.m */; };
+		C56C32BD1EA62F6700A4DF70 /* PTVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32921EA62F6700A4DF70 /* PTVertex.m */; };
+		C56C32BE1EA62F6700A4DF70 /* UIView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32941EA62F6700A4DF70 /* UIView+UIImage.m */; };
+		C56C32BF1EA62F6700A4DF70 /* PTGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32961EA62F6700A4DF70 /* PTGraph.m */; };
+		C56C32C01EA62F6700A4DF70 /* PTCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C32981EA62F6700A4DF70 /* PTCanvasViewController.m */; };
+		C56C32C11EA62F6700A4DF70 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C56C329B1EA62F6700A4DF70 /* Info.plist */; };
+		C56C32C21EA62F6700A4DF70 /* Painter.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C56C329D1EA62F6700A4DF70 /* Painter.xcconfig */; };
+		C56C32C31EA62F6700A4DF70 /* Painter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C329E1EA62F6700A4DF70 /* Painter-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,9 +111,9 @@
 		88C630BE9D13BAC1F7A213BC /* Pods_Painter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Painter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1A750BE876BA933DFD8C9A /* Painter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Painter.podspec; path = ../Painter.podspec; sourceTree = "<group>"; };
 		99C83B928D89B35C70BA066F /* Pods-Painter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Painter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Painter_Tests/Pods-Painter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C51866521E9F8F6700E1B2C0 /* PTCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewController.h; sourceTree = "<group>"; };
-		C51866531E9F8F6700E1B2C0 /* PTCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewController.m; sourceTree = "<group>"; };
-		C51866541E9F8F6700E1B2C0 /* PTCanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTCanvasViewController.xib; sourceTree = "<group>"; };
+		C51866521E9F8F6700E1B2C0 /* PTExampleCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTExampleCanvasViewController.h; sourceTree = "<group>"; };
+		C51866531E9F8F6700E1B2C0 /* PTExampleCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTExampleCanvasViewController.m; sourceTree = "<group>"; };
+		C51866541E9F8F6700E1B2C0 /* PTExampleCanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTExampleCanvasViewController.xib; sourceTree = "<group>"; };
 		C51866571E9F8F9D00E1B2C0 /* PTCoordinatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCoordinatingController.h; sourceTree = "<group>"; };
 		C51866581E9F8F9D00E1B2C0 /* PTCoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCoordinatingController.m; sourceTree = "<group>"; };
 		C518665A1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDeleteScribbleCommand.h; sourceTree = "<group>"; };
@@ -133,63 +134,65 @@
 		C51866711E9F915C00E1B2C0 /* PTThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTThumbnailViewController.h; sourceTree = "<group>"; };
 		C51866721E9F915C00E1B2C0 /* PTThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTThumbnailViewController.m; sourceTree = "<group>"; };
 		C51866731E9F915C00E1B2C0 /* PTThumbnailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PTThumbnailViewController.xib; sourceTree = "<group>"; };
-		C55EB7F51EA46ACF00A79023 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		C55EB7F61EA46ACF00A79023 /* background_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_texture.png; sourceTree = "<group>"; };
-		C55EB7F71EA46ACF00A79023 /* large_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_dot.png; sourceTree = "<group>"; };
-		C55EB7F81EA46ACF00A79023 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
-		C55EB7F91EA46ACF00A79023 /* palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palette.png; sourceTree = "<group>"; };
-		C55EB7FA1EA46ACF00A79023 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
-		C55EB7FB1EA46ACF00A79023 /* redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redo.png; sourceTree = "<group>"; };
-		C55EB7FC1EA46ACF00A79023 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
-		C55EB7FD1EA46ACF00A79023 /* small_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_dot.png; sourceTree = "<group>"; };
-		C55EB7FE1EA46ACF00A79023 /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
-		C55EB8011EA46ACF00A79023 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
-		C55EB8021EA46ACF00A79023 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
-		C55EB8031EA46ACF00A79023 /* PTCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasView.h; sourceTree = "<group>"; };
-		C55EB8041EA46ACF00A79023 /* PTCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasView.m; sourceTree = "<group>"; };
-		C55EB8051EA46ACF00A79023 /* PTCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewGenerator.h; sourceTree = "<group>"; };
-		C55EB8061EA46ACF00A79023 /* PTCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewGenerator.m; sourceTree = "<group>"; };
-		C55EB8071EA46ACF00A79023 /* PTCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommand.h; sourceTree = "<group>"; };
-		C55EB8081EA46ACF00A79023 /* PTCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommand.m; sourceTree = "<group>"; };
-		C55EB8091EA46ACF00A79023 /* PTCommandBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommandBarButton.h; sourceTree = "<group>"; };
-		C55EB80A1EA46ACF00A79023 /* PTCommandBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommandBarButton.m; sourceTree = "<group>"; };
-		C55EB80B1EA46ACF00A79023 /* PTCommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommandSlider.h; sourceTree = "<group>"; };
-		C55EB80C1EA46ACF00A79023 /* PTCommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommandSlider.m; sourceTree = "<group>"; };
-		C55EB80D1EA46ACF00A79023 /* PTDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDot.h; sourceTree = "<group>"; };
-		C55EB80E1EA46ACF00A79023 /* PTDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDot.m; sourceTree = "<group>"; };
-		C55EB80F1EA46ACF00A79023 /* PTMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMark.h; sourceTree = "<group>"; };
-		C55EB8101EA46ACF00A79023 /* PTMarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkEnumerator.h; sourceTree = "<group>"; };
-		C55EB8111EA46ACF00A79023 /* PTMarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMarkEnumerator.m; sourceTree = "<group>"; };
-		C55EB8121EA46ACF00A79023 /* PTMarkEnumerator+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTMarkEnumerator+Internal.h"; sourceTree = "<group>"; };
-		C55EB8131EA46ACF00A79023 /* PTMarkRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkRenderer.h; sourceTree = "<group>"; };
-		C55EB8141EA46ACF00A79023 /* PTMarkRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMarkRenderer.m; sourceTree = "<group>"; };
-		C55EB8151EA46ACF00A79023 /* PTMarkVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkVisitor.h; sourceTree = "<group>"; };
-		C55EB8161EA46ACF00A79023 /* PTScribble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribble.h; sourceTree = "<group>"; };
-		C55EB8171EA46ACF00A79023 /* PTScribble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribble.m; sourceTree = "<group>"; };
-		C55EB8181EA46ACF00A79023 /* PTScribbleMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleMemento.h; sourceTree = "<group>"; };
-		C55EB8191EA46ACF00A79023 /* PTScribbleMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleMemento.m; sourceTree = "<group>"; };
-		C55EB81A1EA46ACF00A79023 /* PTScribbleMemento+Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTScribbleMemento+Friend.h"; sourceTree = "<group>"; };
-		C55EB81B1EA46ACF00A79023 /* PTScribbleSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleSource.h; sourceTree = "<group>"; };
-		C55EB81C1EA46ACF00A79023 /* PTScribbleThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailCell.h; sourceTree = "<group>"; };
-		C55EB81D1EA46ACF00A79023 /* PTScribbleThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailCell.m; sourceTree = "<group>"; };
-		C55EB81E1EA46ACF00A79023 /* PTScribbleThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailView.h; sourceTree = "<group>"; };
-		C55EB81F1EA46ACF00A79023 /* PTScribbleThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailView.m; sourceTree = "<group>"; };
-		C55EB8201EA46ACF00A79023 /* PTScribbleThumbnailViewImageProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailViewImageProxy.h; sourceTree = "<group>"; };
-		C55EB8211EA46ACF00A79023 /* PTScribbleThumbnailViewImageProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailViewImageProxy.m; sourceTree = "<group>"; };
-		C55EB8221EA46ACF00A79023 /* PTStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTStroke.h; sourceTree = "<group>"; };
-		C55EB8231EA46ACF00A79023 /* PTStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTStroke.m; sourceTree = "<group>"; };
-		C55EB8241EA46ACF00A79023 /* PTVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTVertex.h; sourceTree = "<group>"; };
-		C55EB8251EA46ACF00A79023 /* PTVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTVertex.m; sourceTree = "<group>"; };
-		C55EB8261EA46ACF00A79023 /* UIView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
-		C55EB8271EA46ACF00A79023 /* UIView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
-		C55EB8281EA46ACF00A79023 /* PTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTGraph.h; sourceTree = "<group>"; };
-		C55EB8291EA46ACF00A79023 /* PTGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTGraph.m; sourceTree = "<group>"; };
-		C55EB82C1EA46ACF00A79023 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C55EB82D1EA46ACF00A79023 /* Painter.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Painter.modulemap; sourceTree = "<group>"; };
-		C55EB82E1EA46ACF00A79023 /* Painter.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Painter.xcconfig; sourceTree = "<group>"; };
-		C55EB82F1EA46ACF00A79023 /* Painter-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Painter-dummy.m"; sourceTree = "<group>"; };
-		C55EB8301EA46ACF00A79023 /* Painter-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Painter-prefix.pch"; sourceTree = "<group>"; };
-		C55EB8311EA46ACF00A79023 /* Painter-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Painter-umbrella.h"; sourceTree = "<group>"; };
+		C56C32621EA62F6700A4DF70 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		C56C32631EA62F6700A4DF70 /* background_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_texture.png; sourceTree = "<group>"; };
+		C56C32641EA62F6700A4DF70 /* large_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_dot.png; sourceTree = "<group>"; };
+		C56C32651EA62F6700A4DF70 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
+		C56C32661EA62F6700A4DF70 /* palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palette.png; sourceTree = "<group>"; };
+		C56C32671EA62F6700A4DF70 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		C56C32681EA62F6700A4DF70 /* redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redo.png; sourceTree = "<group>"; };
+		C56C32691EA62F6700A4DF70 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		C56C326A1EA62F6700A4DF70 /* small_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = small_dot.png; sourceTree = "<group>"; };
+		C56C326B1EA62F6700A4DF70 /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
+		C56C326E1EA62F6700A4DF70 /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
+		C56C326F1EA62F6700A4DF70 /* NSMutableArray+Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Stack.m"; sourceTree = "<group>"; };
+		C56C32701EA62F6700A4DF70 /* PTCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasView.h; sourceTree = "<group>"; };
+		C56C32711EA62F6700A4DF70 /* PTCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasView.m; sourceTree = "<group>"; };
+		C56C32721EA62F6700A4DF70 /* PTCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewGenerator.h; sourceTree = "<group>"; };
+		C56C32731EA62F6700A4DF70 /* PTCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewGenerator.m; sourceTree = "<group>"; };
+		C56C32741EA62F6700A4DF70 /* PTCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommand.h; sourceTree = "<group>"; };
+		C56C32751EA62F6700A4DF70 /* PTCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommand.m; sourceTree = "<group>"; };
+		C56C32761EA62F6700A4DF70 /* PTCommandBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommandBarButton.h; sourceTree = "<group>"; };
+		C56C32771EA62F6700A4DF70 /* PTCommandBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommandBarButton.m; sourceTree = "<group>"; };
+		C56C32781EA62F6700A4DF70 /* PTCommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCommandSlider.h; sourceTree = "<group>"; };
+		C56C32791EA62F6700A4DF70 /* PTCommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCommandSlider.m; sourceTree = "<group>"; };
+		C56C327A1EA62F6700A4DF70 /* PTDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDot.h; sourceTree = "<group>"; };
+		C56C327B1EA62F6700A4DF70 /* PTDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDot.m; sourceTree = "<group>"; };
+		C56C327C1EA62F6700A4DF70 /* PTMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMark.h; sourceTree = "<group>"; };
+		C56C327D1EA62F6700A4DF70 /* PTMarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkEnumerator.h; sourceTree = "<group>"; };
+		C56C327E1EA62F6700A4DF70 /* PTMarkEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMarkEnumerator.m; sourceTree = "<group>"; };
+		C56C327F1EA62F6700A4DF70 /* PTMarkEnumerator+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTMarkEnumerator+Internal.h"; sourceTree = "<group>"; };
+		C56C32801EA62F6700A4DF70 /* PTMarkRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkRenderer.h; sourceTree = "<group>"; };
+		C56C32811EA62F6700A4DF70 /* PTMarkRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMarkRenderer.m; sourceTree = "<group>"; };
+		C56C32821EA62F6700A4DF70 /* PTMarkVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMarkVisitor.h; sourceTree = "<group>"; };
+		C56C32831EA62F6700A4DF70 /* PTScribble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribble.h; sourceTree = "<group>"; };
+		C56C32841EA62F6700A4DF70 /* PTScribble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribble.m; sourceTree = "<group>"; };
+		C56C32851EA62F6700A4DF70 /* PTScribbleMemento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleMemento.h; sourceTree = "<group>"; };
+		C56C32861EA62F6700A4DF70 /* PTScribbleMemento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleMemento.m; sourceTree = "<group>"; };
+		C56C32871EA62F6700A4DF70 /* PTScribbleMemento+Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PTScribbleMemento+Friend.h"; sourceTree = "<group>"; };
+		C56C32881EA62F6700A4DF70 /* PTScribbleSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleSource.h; sourceTree = "<group>"; };
+		C56C32891EA62F6700A4DF70 /* PTScribbleThumbnailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailCell.h; sourceTree = "<group>"; };
+		C56C328A1EA62F6700A4DF70 /* PTScribbleThumbnailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailCell.m; sourceTree = "<group>"; };
+		C56C328B1EA62F6700A4DF70 /* PTScribbleThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailView.h; sourceTree = "<group>"; };
+		C56C328C1EA62F6700A4DF70 /* PTScribbleThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailView.m; sourceTree = "<group>"; };
+		C56C328D1EA62F6700A4DF70 /* PTScribbleThumbnailViewImageProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTScribbleThumbnailViewImageProxy.h; sourceTree = "<group>"; };
+		C56C328E1EA62F6700A4DF70 /* PTScribbleThumbnailViewImageProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTScribbleThumbnailViewImageProxy.m; sourceTree = "<group>"; };
+		C56C328F1EA62F6700A4DF70 /* PTStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTStroke.h; sourceTree = "<group>"; };
+		C56C32901EA62F6700A4DF70 /* PTStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTStroke.m; sourceTree = "<group>"; };
+		C56C32911EA62F6700A4DF70 /* PTVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTVertex.h; sourceTree = "<group>"; };
+		C56C32921EA62F6700A4DF70 /* PTVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTVertex.m; sourceTree = "<group>"; };
+		C56C32931EA62F6700A4DF70 /* UIView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIImage.h"; sourceTree = "<group>"; };
+		C56C32941EA62F6700A4DF70 /* UIView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
+		C56C32951EA62F6700A4DF70 /* PTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTGraph.h; sourceTree = "<group>"; };
+		C56C32961EA62F6700A4DF70 /* PTGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTGraph.m; sourceTree = "<group>"; };
+		C56C32971EA62F6700A4DF70 /* PTCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewController.h; sourceTree = "<group>"; };
+		C56C32981EA62F6700A4DF70 /* PTCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewController.m; sourceTree = "<group>"; };
+		C56C329B1EA62F6700A4DF70 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56C329C1EA62F6700A4DF70 /* Painter.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = Painter.modulemap; sourceTree = "<group>"; };
+		C56C329D1EA62F6700A4DF70 /* Painter.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Painter.xcconfig; sourceTree = "<group>"; };
+		C56C329E1EA62F6700A4DF70 /* Painter-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Painter-dummy.m"; sourceTree = "<group>"; };
+		C56C329F1EA62F6700A4DF70 /* Painter-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Painter-prefix.pch"; sourceTree = "<group>"; };
+		C56C32A01EA62F6700A4DF70 /* Painter-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Painter-umbrella.h"; sourceTree = "<group>"; };
 		DDCFE9786825016A5FB7DB0E /* Pods-Painter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Painter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Painter_Example/Pods-Painter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -256,16 +259,16 @@
 		6003F593195388D20070C39A /* Example for Painter */ = {
 			isa = PBXGroup;
 			children = (
-				C55EB8341EA46ACF00A79023 /* Development Pods */,
+				C56C32A31EA62F6700A4DF70 /* Development Pods */,
 				6003F59C195388D20070C39A /* PTAppDelegate.h */,
 				6003F59D195388D20070C39A /* PTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PTViewController.h */,
 				6003F5A6195388D20070C39A /* PTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				C51866521E9F8F6700E1B2C0 /* PTCanvasViewController.h */,
-				C51866531E9F8F6700E1B2C0 /* PTCanvasViewController.m */,
-				C51866541E9F8F6700E1B2C0 /* PTCanvasViewController.xib */,
+				C51866521E9F8F6700E1B2C0 /* PTExampleCanvasViewController.h */,
+				C51866531E9F8F6700E1B2C0 /* PTExampleCanvasViewController.m */,
+				C51866541E9F8F6700E1B2C0 /* PTExampleCanvasViewController.xib */,
 				C51866571E9F8F9D00E1B2C0 /* PTCoordinatingController.h */,
 				C51866581E9F8F9D00E1B2C0 /* PTCoordinatingController.m */,
 				C518665A1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.h */,
@@ -333,116 +336,118 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		C55EB7FF1EA46ACF00A79023 /* Images */ = {
+		C56C326C1EA62F6700A4DF70 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				C55EB7F61EA46ACF00A79023 /* background_texture.png */,
-				C55EB7F71EA46ACF00A79023 /* large_dot.png */,
-				C55EB7F81EA46ACF00A79023 /* open.png */,
-				C55EB7F91EA46ACF00A79023 /* palette.png */,
-				C55EB7FA1EA46ACF00A79023 /* placeholder.png */,
-				C55EB7FB1EA46ACF00A79023 /* redo.png */,
-				C55EB7FC1EA46ACF00A79023 /* save.png */,
-				C55EB7FD1EA46ACF00A79023 /* small_dot.png */,
-				C55EB7FE1EA46ACF00A79023 /* undo.png */,
+				C56C32631EA62F6700A4DF70 /* background_texture.png */,
+				C56C32641EA62F6700A4DF70 /* large_dot.png */,
+				C56C32651EA62F6700A4DF70 /* open.png */,
+				C56C32661EA62F6700A4DF70 /* palette.png */,
+				C56C32671EA62F6700A4DF70 /* placeholder.png */,
+				C56C32681EA62F6700A4DF70 /* redo.png */,
+				C56C32691EA62F6700A4DF70 /* save.png */,
+				C56C326A1EA62F6700A4DF70 /* small_dot.png */,
+				C56C326B1EA62F6700A4DF70 /* undo.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
 		};
-		C55EB8001EA46ACF00A79023 /* Assets */ = {
+		C56C326D1EA62F6700A4DF70 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C55EB7F51EA46ACF00A79023 /* .gitkeep */,
-				C55EB7FF1EA46ACF00A79023 /* Images */,
+				C56C32621EA62F6700A4DF70 /* .gitkeep */,
+				C56C326C1EA62F6700A4DF70 /* Images */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		C55EB82A1EA46ACF00A79023 /* Classes */ = {
+		C56C32991EA62F6700A4DF70 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C55EB8011EA46ACF00A79023 /* NSMutableArray+Stack.h */,
-				C55EB8021EA46ACF00A79023 /* NSMutableArray+Stack.m */,
-				C55EB8031EA46ACF00A79023 /* PTCanvasView.h */,
-				C55EB8041EA46ACF00A79023 /* PTCanvasView.m */,
-				C55EB8051EA46ACF00A79023 /* PTCanvasViewGenerator.h */,
-				C55EB8061EA46ACF00A79023 /* PTCanvasViewGenerator.m */,
-				C55EB8071EA46ACF00A79023 /* PTCommand.h */,
-				C55EB8081EA46ACF00A79023 /* PTCommand.m */,
-				C55EB8091EA46ACF00A79023 /* PTCommandBarButton.h */,
-				C55EB80A1EA46ACF00A79023 /* PTCommandBarButton.m */,
-				C55EB80B1EA46ACF00A79023 /* PTCommandSlider.h */,
-				C55EB80C1EA46ACF00A79023 /* PTCommandSlider.m */,
-				C55EB80D1EA46ACF00A79023 /* PTDot.h */,
-				C55EB80E1EA46ACF00A79023 /* PTDot.m */,
-				C55EB80F1EA46ACF00A79023 /* PTMark.h */,
-				C55EB8101EA46ACF00A79023 /* PTMarkEnumerator.h */,
-				C55EB8111EA46ACF00A79023 /* PTMarkEnumerator.m */,
-				C55EB8121EA46ACF00A79023 /* PTMarkEnumerator+Internal.h */,
-				C55EB8131EA46ACF00A79023 /* PTMarkRenderer.h */,
-				C55EB8141EA46ACF00A79023 /* PTMarkRenderer.m */,
-				C55EB8151EA46ACF00A79023 /* PTMarkVisitor.h */,
-				C55EB8161EA46ACF00A79023 /* PTScribble.h */,
-				C55EB8171EA46ACF00A79023 /* PTScribble.m */,
-				C55EB8181EA46ACF00A79023 /* PTScribbleMemento.h */,
-				C55EB8191EA46ACF00A79023 /* PTScribbleMemento.m */,
-				C55EB81A1EA46ACF00A79023 /* PTScribbleMemento+Friend.h */,
-				C55EB81B1EA46ACF00A79023 /* PTScribbleSource.h */,
-				C55EB81C1EA46ACF00A79023 /* PTScribbleThumbnailCell.h */,
-				C55EB81D1EA46ACF00A79023 /* PTScribbleThumbnailCell.m */,
-				C55EB81E1EA46ACF00A79023 /* PTScribbleThumbnailView.h */,
-				C55EB81F1EA46ACF00A79023 /* PTScribbleThumbnailView.m */,
-				C55EB8201EA46ACF00A79023 /* PTScribbleThumbnailViewImageProxy.h */,
-				C55EB8211EA46ACF00A79023 /* PTScribbleThumbnailViewImageProxy.m */,
-				C55EB8221EA46ACF00A79023 /* PTStroke.h */,
-				C55EB8231EA46ACF00A79023 /* PTStroke.m */,
-				C55EB8241EA46ACF00A79023 /* PTVertex.h */,
-				C55EB8251EA46ACF00A79023 /* PTVertex.m */,
-				C55EB8261EA46ACF00A79023 /* UIView+UIImage.h */,
-				C55EB8271EA46ACF00A79023 /* UIView+UIImage.m */,
-				C55EB8281EA46ACF00A79023 /* PTGraph.h */,
-				C55EB8291EA46ACF00A79023 /* PTGraph.m */,
+				C56C326E1EA62F6700A4DF70 /* NSMutableArray+Stack.h */,
+				C56C326F1EA62F6700A4DF70 /* NSMutableArray+Stack.m */,
+				C56C32701EA62F6700A4DF70 /* PTCanvasView.h */,
+				C56C32711EA62F6700A4DF70 /* PTCanvasView.m */,
+				C56C32721EA62F6700A4DF70 /* PTCanvasViewGenerator.h */,
+				C56C32731EA62F6700A4DF70 /* PTCanvasViewGenerator.m */,
+				C56C32741EA62F6700A4DF70 /* PTCommand.h */,
+				C56C32751EA62F6700A4DF70 /* PTCommand.m */,
+				C56C32761EA62F6700A4DF70 /* PTCommandBarButton.h */,
+				C56C32771EA62F6700A4DF70 /* PTCommandBarButton.m */,
+				C56C32781EA62F6700A4DF70 /* PTCommandSlider.h */,
+				C56C32791EA62F6700A4DF70 /* PTCommandSlider.m */,
+				C56C327A1EA62F6700A4DF70 /* PTDot.h */,
+				C56C327B1EA62F6700A4DF70 /* PTDot.m */,
+				C56C327C1EA62F6700A4DF70 /* PTMark.h */,
+				C56C327D1EA62F6700A4DF70 /* PTMarkEnumerator.h */,
+				C56C327E1EA62F6700A4DF70 /* PTMarkEnumerator.m */,
+				C56C327F1EA62F6700A4DF70 /* PTMarkEnumerator+Internal.h */,
+				C56C32801EA62F6700A4DF70 /* PTMarkRenderer.h */,
+				C56C32811EA62F6700A4DF70 /* PTMarkRenderer.m */,
+				C56C32821EA62F6700A4DF70 /* PTMarkVisitor.h */,
+				C56C32831EA62F6700A4DF70 /* PTScribble.h */,
+				C56C32841EA62F6700A4DF70 /* PTScribble.m */,
+				C56C32851EA62F6700A4DF70 /* PTScribbleMemento.h */,
+				C56C32861EA62F6700A4DF70 /* PTScribbleMemento.m */,
+				C56C32871EA62F6700A4DF70 /* PTScribbleMemento+Friend.h */,
+				C56C32881EA62F6700A4DF70 /* PTScribbleSource.h */,
+				C56C32891EA62F6700A4DF70 /* PTScribbleThumbnailCell.h */,
+				C56C328A1EA62F6700A4DF70 /* PTScribbleThumbnailCell.m */,
+				C56C328B1EA62F6700A4DF70 /* PTScribbleThumbnailView.h */,
+				C56C328C1EA62F6700A4DF70 /* PTScribbleThumbnailView.m */,
+				C56C328D1EA62F6700A4DF70 /* PTScribbleThumbnailViewImageProxy.h */,
+				C56C328E1EA62F6700A4DF70 /* PTScribbleThumbnailViewImageProxy.m */,
+				C56C328F1EA62F6700A4DF70 /* PTStroke.h */,
+				C56C32901EA62F6700A4DF70 /* PTStroke.m */,
+				C56C32911EA62F6700A4DF70 /* PTVertex.h */,
+				C56C32921EA62F6700A4DF70 /* PTVertex.m */,
+				C56C32931EA62F6700A4DF70 /* UIView+UIImage.h */,
+				C56C32941EA62F6700A4DF70 /* UIView+UIImage.m */,
+				C56C32951EA62F6700A4DF70 /* PTGraph.h */,
+				C56C32961EA62F6700A4DF70 /* PTGraph.m */,
+				C56C32971EA62F6700A4DF70 /* PTCanvasViewController.h */,
+				C56C32981EA62F6700A4DF70 /* PTCanvasViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		C55EB82B1EA46ACF00A79023 /* Painter */ = {
+		C56C329A1EA62F6700A4DF70 /* Painter */ = {
 			isa = PBXGroup;
 			children = (
-				C55EB8001EA46ACF00A79023 /* Assets */,
-				C55EB82A1EA46ACF00A79023 /* Classes */,
+				C56C326D1EA62F6700A4DF70 /* Assets */,
+				C56C32991EA62F6700A4DF70 /* Classes */,
 			);
 			path = Painter;
 			sourceTree = "<group>";
 		};
-		C55EB8321EA46ACF00A79023 /* Support Files */ = {
+		C56C32A11EA62F6700A4DF70 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C55EB82C1EA46ACF00A79023 /* Info.plist */,
-				C55EB82D1EA46ACF00A79023 /* Painter.modulemap */,
-				C55EB82E1EA46ACF00A79023 /* Painter.xcconfig */,
-				C55EB82F1EA46ACF00A79023 /* Painter-dummy.m */,
-				C55EB8301EA46ACF00A79023 /* Painter-prefix.pch */,
-				C55EB8311EA46ACF00A79023 /* Painter-umbrella.h */,
+				C56C329B1EA62F6700A4DF70 /* Info.plist */,
+				C56C329C1EA62F6700A4DF70 /* Painter.modulemap */,
+				C56C329D1EA62F6700A4DF70 /* Painter.xcconfig */,
+				C56C329E1EA62F6700A4DF70 /* Painter-dummy.m */,
+				C56C329F1EA62F6700A4DF70 /* Painter-prefix.pch */,
+				C56C32A01EA62F6700A4DF70 /* Painter-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Painter";
 			sourceTree = "<group>";
 		};
-		C55EB8331EA46ACF00A79023 /* Painter */ = {
+		C56C32A21EA62F6700A4DF70 /* Painter */ = {
 			isa = PBXGroup;
 			children = (
-				C55EB82B1EA46ACF00A79023 /* Painter */,
-				C55EB8321EA46ACF00A79023 /* Support Files */,
+				C56C329A1EA62F6700A4DF70 /* Painter */,
+				C56C32A11EA62F6700A4DF70 /* Support Files */,
 			);
 			name = Painter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		C55EB8341EA46ACF00A79023 /* Development Pods */ = {
+		C56C32A31EA62F6700A4DF70 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C55EB8331EA46ACF00A79023 /* Painter */,
+				C56C32A21EA62F6700A4DF70 /* Painter */,
 			);
 			name = "Development Pods";
 			path = ../Pods;
@@ -543,24 +548,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				C55EB8391EA46AD000A79023 /* palette.png in Resources */,
-				C55EB8511EA46AD000A79023 /* Info.plist in Resources */,
+				C56C32A81EA62F6700A4DF70 /* palette.png in Resources */,
+				C56C32C11EA62F6700A4DF70 /* Info.plist in Resources */,
 				C51866751E9F915C00E1B2C0 /* PTThumbnailViewController.xib in Resources */,
-				C55EB83A1EA46AD000A79023 /* placeholder.png in Resources */,
+				C56C32A91EA62F6700A4DF70 /* placeholder.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				C55EB83B1EA46AD000A79023 /* redo.png in Resources */,
-				C55EB8371EA46ACF00A79023 /* large_dot.png in Resources */,
-				C55EB8361EA46ACF00A79023 /* background_texture.png in Resources */,
-				C51866561E9F8F6700E1B2C0 /* PTCanvasViewController.xib in Resources */,
+				C56C32AA1EA62F6700A4DF70 /* redo.png in Resources */,
+				C56C32A61EA62F6700A4DF70 /* large_dot.png in Resources */,
+				C56C32A51EA62F6700A4DF70 /* background_texture.png in Resources */,
+				C51866561E9F8F6700E1B2C0 /* PTExampleCanvasViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				C55EB8521EA46AD000A79023 /* Painter.xcconfig in Resources */,
+				C56C32C21EA62F6700A4DF70 /* Painter.xcconfig in Resources */,
 				C51866701E9F913000E1B2C0 /* PTPaletteViewController.xib in Resources */,
-				C55EB83C1EA46AD000A79023 /* save.png in Resources */,
-				C55EB83E1EA46AD000A79023 /* undo.png in Resources */,
+				C56C32AB1EA62F6700A4DF70 /* save.png in Resources */,
+				C56C32AD1EA62F6700A4DF70 /* undo.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				C55EB8381EA46AD000A79023 /* open.png in Resources */,
-				C55EB8351EA46ACF00A79023 /* .gitkeep in Resources */,
-				C55EB83D1EA46AD000A79023 /* small_dot.png in Resources */,
+				C56C32A71EA62F6700A4DF70 /* open.png in Resources */,
+				C56C32A41EA62F6700A4DF70 /* .gitkeep in Resources */,
+				C56C32AC1EA62F6700A4DF70 /* small_dot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,38 +677,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C55EB8421EA46AD000A79023 /* PTCommand.m in Sources */,
-				C55EB8451EA46AD000A79023 /* PTDot.m in Sources */,
-				C55EB83F1EA46AD000A79023 /* NSMutableArray+Stack.m in Sources */,
+				C56C32B11EA62F6700A4DF70 /* PTCommand.m in Sources */,
+				C56C32B41EA62F6700A4DF70 /* PTDot.m in Sources */,
+				C56C32AE1EA62F6700A4DF70 /* NSMutableArray+Stack.m in Sources */,
 				6003F59E195388D20070C39A /* PTAppDelegate.m in Sources */,
 				C518666F1E9F913000E1B2C0 /* PTPaletteViewController.m in Sources */,
-				C55EB84D1EA46AD000A79023 /* PTStroke.m in Sources */,
-				C55EB8441EA46AD000A79023 /* PTCommandSlider.m in Sources */,
+				C56C32BC1EA62F6700A4DF70 /* PTStroke.m in Sources */,
+				C56C32B31EA62F6700A4DF70 /* PTCommandSlider.m in Sources */,
 				C51866651E9F908200E1B2C0 /* PTSaveScribbleCommand.m in Sources */,
-				C55EB8411EA46AD000A79023 /* PTCanvasViewGenerator.m in Sources */,
-				C55EB8401EA46AD000A79023 /* PTCanvasView.m in Sources */,
+				C56C32B01EA62F6700A4DF70 /* PTCanvasViewGenerator.m in Sources */,
+				C56C32AF1EA62F6700A4DF70 /* PTCanvasView.m in Sources */,
 				C518665F1E9F902A00E1B2C0 /* PTOpenScribbleCommand.m in Sources */,
 				6003F5A7195388D20070C39A /* PTViewController.m in Sources */,
-				C55EB8461EA46AD000A79023 /* PTMarkEnumerator.m in Sources */,
+				C56C32B51EA62F6700A4DF70 /* PTMarkEnumerator.m in Sources */,
 				C518665C1E9F8FCB00E1B2C0 /* PTDeleteScribbleCommand.m in Sources */,
-				C55EB84B1EA46AD000A79023 /* PTScribbleThumbnailView.m in Sources */,
-				C55EB8491EA46AD000A79023 /* PTScribbleMemento.m in Sources */,
-				C55EB8471EA46AD000A79023 /* PTMarkRenderer.m in Sources */,
+				C56C32BA1EA62F6700A4DF70 /* PTScribbleThumbnailView.m in Sources */,
+				C56C32B81EA62F6700A4DF70 /* PTScribbleMemento.m in Sources */,
+				C56C32B61EA62F6700A4DF70 /* PTMarkRenderer.m in Sources */,
 				C51866681E9F90C000E1B2C0 /* PTScribbleManager.m in Sources */,
-				C55EB84E1EA46AD000A79023 /* PTVertex.m in Sources */,
+				C56C32C01EA62F6700A4DF70 /* PTCanvasViewController.m in Sources */,
+				C56C32BD1EA62F6700A4DF70 /* PTVertex.m in Sources */,
 				C51866621E9F905600E1B2C0 /* PTSetStrokeSizeCommand.m in Sources */,
+				C56C32C31EA62F6700A4DF70 /* Painter-dummy.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				C51866551E9F8F6700E1B2C0 /* PTCanvasViewController.m in Sources */,
-				C55EB8531EA46AD000A79023 /* Painter-dummy.m in Sources */,
+				C51866551E9F8F6700E1B2C0 /* PTExampleCanvasViewController.m in Sources */,
 				C518666B1E9F910100E1B2C0 /* PTSetStrokeColorCommand.m in Sources */,
-				C55EB8431EA46AD000A79023 /* PTCommandBarButton.m in Sources */,
-				C55EB84F1EA46AD000A79023 /* UIView+UIImage.m in Sources */,
-				C55EB8481EA46AD000A79023 /* PTScribble.m in Sources */,
-				C55EB84C1EA46AD000A79023 /* PTScribbleThumbnailViewImageProxy.m in Sources */,
+				C56C32B21EA62F6700A4DF70 /* PTCommandBarButton.m in Sources */,
+				C56C32BE1EA62F6700A4DF70 /* UIView+UIImage.m in Sources */,
+				C56C32B71EA62F6700A4DF70 /* PTScribble.m in Sources */,
+				C56C32BB1EA62F6700A4DF70 /* PTScribbleThumbnailViewImageProxy.m in Sources */,
 				C51866741E9F915C00E1B2C0 /* PTThumbnailViewController.m in Sources */,
-				C55EB84A1EA46AD000A79023 /* PTScribbleThumbnailCell.m in Sources */,
+				C56C32B91EA62F6700A4DF70 /* PTScribbleThumbnailCell.m in Sources */,
 				C51866591E9F8F9D00E1B2C0 /* PTCoordinatingController.m in Sources */,
-				C55EB8501EA46AD000A79023 /* PTGraph.m in Sources */,
+				C56C32BF1EA62F6700A4DF70 /* PTGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

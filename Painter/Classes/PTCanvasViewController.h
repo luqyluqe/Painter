@@ -1,13 +1,13 @@
 //
 //  PTCanvasViewController.h
+//  Pods
+//
+//  Created by luqy on 4/18/17.
+//
 //
 
-#import <UIKit/UIKit.h>
 #import "PTScribble.h"
 #import "PTCanvasView.h"
-#import "PTCanvasViewGenerator.h"
-#import "PTCommandBarButton.h"
-#import "NSMutableArray+Stack.h"
 
 @interface PTCanvasViewController : UIViewController
 
@@ -17,11 +17,6 @@
 @property (nonatomic, assign) CGFloat strokeSize;
 @property (nonatomic, assign) CGPoint startPoint;
 
-- (void) loadCanvasViewWithGenerator:(PTCanvasViewGenerator *)generator;
-
-- (IBAction) onBarButtonHit:(id) button;
-- (IBAction) onCustomBarButtonHit:(PTCommandBarButton *)barButton;
-
 @property (nonatomic, readonly, strong) NSInvocation *drawScribbleInvocation;
 @property (nonatomic, readonly, strong) NSInvocation *undrawScribbleInvocation;
 
@@ -29,4 +24,3 @@
 - (void) unexecuteInvocation:(NSInvocation *)invocation withRedoInvocation:(NSInvocation *)redoInvocation;
 
 @end
-

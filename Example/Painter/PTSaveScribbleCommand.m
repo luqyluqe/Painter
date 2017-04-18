@@ -15,7 +15,7 @@
   // from an instance of PTCanvasViewController
   // for saving its PTScribble
   PTCoordinatingController *coordinatingController = [PTCoordinatingController sharedInstance];
-  PTCanvasViewController *canvasViewController = coordinatingController.canvasViewController;
+  PTExampleCanvasViewController *canvasViewController = coordinatingController.canvasViewController;
   UIImage *canvasViewImage = [canvasViewController.canvasView image];
   PTScribble *scribble = canvasViewController.scribble;
   

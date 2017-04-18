@@ -4,7 +4,7 @@
 
 #import "PTSetStrokeColorCommand.h"
 #import "PTCoordinatingController.h"
-#import "PTCanvasViewController.h"
+#import "PTExampleCanvasViewController.h"
 
 @implementation PTSetStrokeColorCommand
 
@@ -40,7 +40,7 @@
   
   // Assign it to the current canvasViewController
   PTCoordinatingController *coordinator = [PTCoordinatingController sharedInstance];
-  PTCanvasViewController *controller = coordinator.canvasViewController;
+  PTExampleCanvasViewController *controller = coordinator.canvasViewController;
   controller.strokeColor = color;
   
   // Forward a post update message

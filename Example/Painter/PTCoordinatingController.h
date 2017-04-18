@@ -3,7 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PTCanvasViewController.h"
+#import "PTExampleCanvasViewController.h"
 #import "PTPaletteViewController.h"
 #import "PTThumbnailViewController.h"
 
@@ -16,7 +16,7 @@ typedef NS_ENUM(unsigned int, ButtonTag) {
 @interface PTCoordinatingController : NSObject
 
 @property (nonatomic, readonly) UIViewController *activeViewController;
-@property (nonatomic, readonly) PTCanvasViewController *canvasViewController;
+@property (nonatomic, readonly) PTExampleCanvasViewController *canvasViewController;
 
 + (PTCoordinatingController *) sharedInstance;
 

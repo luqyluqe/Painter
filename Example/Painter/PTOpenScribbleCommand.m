@@ -4,7 +4,7 @@
 
 #import "PTOpenScribbleCommand.h"
 #import "PTCoordinatingController.h"
-#import "PTCanvasViewController.h"
+#import "PTExampleCanvasViewController.h"
 
 @implementation PTOpenScribbleCommand
 
@@ -25,7 +25,7 @@
   
   // set it to the current PTCanvasViewController
   PTCoordinatingController *coordinator = [PTCoordinatingController sharedInstance];
-  PTCanvasViewController *controller = coordinator.canvasViewController;
+  PTExampleCanvasViewController *controller = coordinator.canvasViewController;
   controller.scribble = scribble;
   
   // then tell the coordinator to change views

@@ -15,7 +15,7 @@
 
 - (void) initialize
 {
-  _canvasViewController = [[PTCanvasViewController alloc] init];
+  _canvasViewController = [[PTExampleCanvasViewController alloc] init];
   _activeViewController = self.canvasViewController;
 }
 

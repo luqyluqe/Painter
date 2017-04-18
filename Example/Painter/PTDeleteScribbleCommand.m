@@ -4,7 +4,7 @@
 
 #import "PTDeleteScribbleCommand.h"
 #import "PTCoordinatingController.h"
-#import "PTCanvasViewController.h"
+#import "PTExampleCanvasViewController.h"
 
 @implementation PTDeleteScribbleCommand
 
@@ -14,7 +14,7 @@
   // PTCanvasViewController from
   // the PTCoordinatingController
   PTCoordinatingController *coordinatingController = [PTCoordinatingController sharedInstance];
-  PTCanvasViewController *canvasViewController = coordinatingController.canvasViewController;
+  PTExampleCanvasViewController *canvasViewController = coordinatingController.canvasViewController;
   
   // create a new scribble for
   // canvasViewController

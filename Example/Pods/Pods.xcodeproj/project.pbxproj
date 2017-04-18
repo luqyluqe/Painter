@@ -46,6 +46,8 @@
 		B9CEAC95BD1E254047DC4CC47147D9D3 /* PTScribbleThumbnailCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BE52C8E85414C03F4B3810CB61941C3D /* PTScribbleThumbnailCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C55EB7F31EA46AB100A79023 /* PTGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = C55EB7F11EA46AB100A79023 /* PTGraph.h */; };
 		C55EB7F41EA46AB100A79023 /* PTGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C55EB7F21EA46AB100A79023 /* PTGraph.m */; };
+		C56C325D1EA62C9800A4DF70 /* PTCanvasViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C56C325B1EA62C9800A4DF70 /* PTCanvasViewController.h */; };
+		C56C325E1EA62C9800A4DF70 /* PTCanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C325C1EA62C9800A4DF70 /* PTCanvasViewController.m */; };
 		CB6F146D90B8C93674877E1CCC1677AB /* PTVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2B78DC7C1DB0EA49547CAFF42B3D8 /* PTVertex.m */; };
 		CDC5049380C46DA2466CD1F54DE503EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D815B8E552B4A77C1D4372FFB9F09336 /* Pods-Painter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5AF56AF3A6794E4610BDF3193483E5B /* Pods-Painter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -126,6 +128,8 @@
 		C4D8907A9303E518E11A94F448C792E6 /* UIView+UIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIImage.m"; sourceTree = "<group>"; };
 		C55EB7F11EA46AB100A79023 /* PTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTGraph.h; sourceTree = "<group>"; };
 		C55EB7F21EA46AB100A79023 /* PTGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTGraph.m; sourceTree = "<group>"; };
+		C56C325B1EA62C9800A4DF70 /* PTCanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTCanvasViewController.h; sourceTree = "<group>"; };
+		C56C325C1EA62C9800A4DF70 /* PTCanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTCanvasViewController.m; sourceTree = "<group>"; };
 		C59875A91E9F23B8009304D4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		C59875AB1E9F23D0009304D4 /* background_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_texture.png; sourceTree = "<group>"; };
 		C59875AC1E9F23D0009304D4 /* large_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_dot.png; sourceTree = "<group>"; };
@@ -318,6 +322,8 @@
 				C4D8907A9303E518E11A94F448C792E6 /* UIView+UIImage.m */,
 				C55EB7F11EA46AB100A79023 /* PTGraph.h */,
 				C55EB7F21EA46AB100A79023 /* PTGraph.m */,
+				C56C325B1EA62C9800A4DF70 /* PTCanvasViewController.h */,
+				C56C325C1EA62C9800A4DF70 /* PTCanvasViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -389,6 +395,7 @@
 				A5F83016567EB0921EB516C0C4FE6C49 /* Painter-umbrella.h in Headers */,
 				2581204BE4228A26271C1D2184B5608F /* PTCanvasView.h in Headers */,
 				A25275F302616450DC1C75919539D654 /* PTCanvasViewGenerator.h in Headers */,
+				C56C325D1EA62C9800A4DF70 /* PTCanvasViewController.h in Headers */,
 				DA4FC23EE42691B770A61ED4995DC150 /* PTCommand.h in Headers */,
 				E26DC246B426CE6DF71B6273F3BFD481 /* PTCommandBarButton.h in Headers */,
 				B5A01432AB9655C04B886C02D59BADCF /* PTCommandSlider.h in Headers */,
@@ -546,6 +553,7 @@
 				B63589CF8EEC1BC42EC11839A221F3FE /* PTScribble.m in Sources */,
 				0807FCFD54DD4E21FFE02A8C2D331635 /* PTScribbleMemento.m in Sources */,
 				A2EDBFB214E33090195AD8055DBE555A /* PTScribbleThumbnailCell.m in Sources */,
+				C56C325E1EA62C9800A4DF70 /* PTCanvasViewController.m in Sources */,
 				0A834861DFD7D773F59FB061A96B4BB0 /* PTScribbleThumbnailView.m in Sources */,
 				88625BA3E2CFBA891BED0C99DB77C34A /* PTScribbleThumbnailViewImageProxy.m in Sources */,
 				A8693EC8A1631182E765A1EA0F68DDBA /* PTStroke.m in Sources */,
