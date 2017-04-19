@@ -19,9 +19,6 @@
 //  PTCanvasViewGenerator *defaultGenerator = [[PTCanvasViewGenerator alloc] init];
 //  [self loadCanvasViewWithGenerator:defaultGenerator];
     self.canvasView=(PTCanvasView*)self.view;
-  // initialize a PTScribble model
-  PTScribble *scribble = [[PTScribble alloc] init];
-  self.scribble = scribble;
   
   // setup default stroke color and size
   NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];

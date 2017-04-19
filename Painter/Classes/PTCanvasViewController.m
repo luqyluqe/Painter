@@ -16,6 +16,13 @@
 
 @implementation PTCanvasViewController
 
+-(void)viewDidLoad
+{
+    [super viewDidLoad];
+    // initialize a PTScribble model
+    self.scribble = [[PTScribble alloc] init];
+}
+
 // hook up everything with a new PTScribble instance
 - (void) setScribble:(PTScribble *)aScribble
 {
@@ -41,9 +48,9 @@
 {
     // enforce the smallest size
     // allowed
-    if (aSize < 5.0)
+    if (aSize < 0)
     {
-        _strokeSize = 5.0;
+        _strokeSize = 0;
     }
     else
     {
