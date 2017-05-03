@@ -48,14 +48,7 @@
 {
     // enforce the smallest size
     // allowed
-    if (aSize < 0)
-    {
-        _strokeSize = 0;
-    }
-    else
-    {
-        _strokeSize = aSize;
-    }
+    _strokeSize = aSize>0?aSize:1;
 }
 
 #pragma mark - Draw PTScribble Invocation Generation Methods
