@@ -48,7 +48,14 @@
 {
     // enforce the smallest size
     // allowed
-    _strokeSize = aSize>0?aSize:1;
+    if (aSize < 0)
+    {
+        _strokeSize = 0;
+    }
+    else
+    {
+        _strokeSize = aSize;
+    }
 }
 
 #pragma mark - Draw PTScribble Invocation Generation Methods
@@ -114,36 +121,55 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     self.startPoint = [[touches anyObject] locationInView:self.canvasView];
+    id <PTMark> newStroke = [[PTStroke alloc] init];
+    newStroke.color = self.strokeColor;
+    newStroke.size = self.strokeSize;
+    
+    //[self.scribble addMark:newStroke shouldAddToPreviousMark:NO];
+    
+    // retrieve a new NSInvocation for drawing and
+    // set new arguments for the draw command
+    NSInvocation *drawInvocation = [self drawScribbleInvocation];
+    [drawInvocation setArgument:&newStroke atIndex:2];
+    
+    // retrieve a new NSInvocation for undrawing and
+    // set a new argument for the undraw command
+    NSInvocation *undrawInvocation = [self undrawScribbleInvocation];
+    [undrawInvocation setArgument:&newStroke atIndex:2];
+    
+    // execute the draw command with the undraw command
+    [self executeInvocation:drawInvocation withUndoInvocation:undrawInvocation];
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    CGPoint lastPoint = [[touches anyObject] previousLocationInView:self.canvasView];
+//    CGPoint lastPoint = [[touches anyObject] previousLocationInView:self.canvasView];
     
     // add a new stroke to scribble
     // if this is indeed a drag from
     // a finger
-    if (CGPointEqualToPoint(lastPoint, self.startPoint))
-    {
-        id <PTMark> newStroke = [[PTStroke alloc] init];
-        newStroke.color = self.strokeColor;
-        newStroke.size = self.strokeSize;
-        
-        //[self.scribble addMark:newStroke shouldAddToPreviousMark:NO];
-        
-        // retrieve a new NSInvocation for drawing and
-        // set new arguments for the draw command
-        NSInvocation *drawInvocation = [self drawScribbleInvocation];
-        [drawInvocation setArgument:&newStroke atIndex:2];
-        
-        // retrieve a new NSInvocation for undrawing and
-        // set a new argument for the undraw command
-        NSInvocation *undrawInvocation = [self undrawScribbleInvocation];
-        [undrawInvocation setArgument:&newStroke atIndex:2];
-        
-        // execute the draw command with the undraw command
-        [self executeInvocation:drawInvocation withUndoInvocation:undrawInvocation];
-    }
+//    if (CGPointEqualToPoint(lastPoint, self.startPoint))
+//    {
+//        NSLog(@"CGPointEqualToPoint");
+//        id <PTMark> newStroke = [[PTStroke alloc] init];
+//        newStroke.color = self.strokeColor;
+//        newStroke.size = self.strokeSize;
+//        
+//        //[self.scribble addMark:newStroke shouldAddToPreviousMark:NO];
+//        
+//        // retrieve a new NSInvocation for drawing and
+//        // set new arguments for the draw command
+//        NSInvocation *drawInvocation = [self drawScribbleInvocation];
+//        [drawInvocation setArgument:&newStroke atIndex:2];
+//        
+//        // retrieve a new NSInvocation for undrawing and
+//        // set a new argument for the undraw command
+//        NSInvocation *undrawInvocation = [self undrawScribbleInvocation];
+//        [undrawInvocation setArgument:&newStroke atIndex:2];
+//        
+//        // execute the draw command with the undraw command
+//        [self executeInvocation:drawInvocation withUndoInvocation:undrawInvocation];
+//    }
     
     // add the current touch as another vertex to the
     // temp stroke
